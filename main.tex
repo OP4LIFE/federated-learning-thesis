@@ -1,0 +1,79 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{svg}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+
+\begin{document}
+\begin{titlepage}
+  \centering
+  \includesvg[width=0.30\textwidth]{media/ucll-logo}
+
+  \vspace{2cm}
+  {\LARGE {\textit{Bachelor Project Applied Computer Science} \\ (Academic year 2025---2026)} \par}
+
+  \vspace{4cm}
+  {\Huge \textbf{Federated Learning} \par}
+
+  \raggedright
+  \vspace{5cm}
+  {\Large Authors: \par}
+
+  \vspace{.2cm}
+  {\Large Matej Vesel \par}
+  {\Large Manja Gorenc Novak \par}
+
+  \vspace{0.8cm}
+  {\Large Client: \par}
+  {\Large eEarly \par}
+
+  \vspace{0.8cm}
+  {\Large Coach: \par}
+  {\Large Manja Gorenc Novak \par}
+
+  \vfill
+\end{titlepage}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{Introduction} \label{sec:introduction}
+
+Your introduction goes here!
+Simply start writing your document and use the Recompile button to view the updated PDF preview.
+Examples of commonly used commands and features are listed below, to help you get started.
+
+Once you're familiar with the editor, you can find various project settings in the Overleaf menu, accessed via the button in the very top left of the editor.
+To view tutorials, user guides, and further documentation, please visit our \href{https://www.overleaf.com/learn}{help library}, or head to our plans page to \href{https://www.overleaf.com/user/subscription/plans}{choose your plan}.
+
+\section{Scope \& Vision} \label{sec:scope-and-vision}
+\input{sections/01-scope-and-vision}
+
+\section{Software Requirements Specification} \label{sec:software-requirements-specification}
+\input{sections/02-software-requirements-specification}
+
+\section{Preliminary research} \label{sec:preliminary-research}
+\input{sections/03-preliminary-research}
+
+\section{Reflection} \label{sec:reflection}
+\input{sections/04-reflection}
+
+\section{Appendices} \label{sec:appendices}
+\input{sections/05-appendices}
+
+
+\end{document}
