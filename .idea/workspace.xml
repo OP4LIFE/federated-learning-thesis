@@ -4,11 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="746c0b5d-c887-4cb7-befb-430936f101f4" name="Changes" comment="" />
+    <list default="true" id="746c0b5d-c887-4cb7-befb-430936f101f4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sections/preliminary-research.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/scope-and-vision.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/software-requirements-specification.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gggo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/main.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/main.blg" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.blg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/main.out" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/01-scope-and-vision.tex" beforeDir="false" afterPath="$PROJECT_DIR$/sections/appendices.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/02-software-requirements-specification.tex" beforeDir="false" afterPath="$PROJECT_DIR$/sections/reflection.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/03-preliminary-research.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/04-reflection.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/05-appendices.tex" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JiraMajeraCodeReviewSettings">
     <option name="popularEmojiShortcuts">
@@ -30,23 +52,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "BibTeX.main bibliography.executor": "Run",
-    "LaTeX.main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/veselm/OneDrive/Documentss/notes/ucll/diplomsko_delo/During Bachelor Project/Template individual/bachelor_work/sections",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/veselm/OneDrive/Documentss/notes/ucll/diplomsko_delo/During Bachelor Project/Template individual/bachelor_work/sections/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;BibTeX.main bibliography.executor&quot;: &quot;Run&quot;,
+    &quot;LaTeX.main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/veselm/OneDrive/Documentss/notes/ucll/diplomsko_delo/During Bachelor Project/Template individual/bachelor_work/sections&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/veselm/OneDrive/Documentss/notes/ucll/diplomsko_delo/During Bachelor Project/Template individual/bachelor_work/sections/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sections" />
@@ -58,18 +82,6 @@
     </key>
   </component>
   <component name="RunManager" selected="LaTeX.main">
-    <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
-      <texify-bibtex>
-        <compiler />
-        <compiler-path />
-        <compiler-arguments />
-        <envs />
-        <main-file />
-        <aux-dir />
-        <latex-distribution>PROJECT_SDK</latex-distribution>
-      </texify-bibtex>
-      <method v="2" />
-    </configuration>
     <configuration name="main bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler>BIBTEX</compiler>
@@ -131,7 +143,9 @@
       <workItem from="1775484044158" duration="201000" />
       <workItem from="1775484255086" duration="333000" />
       <workItem from="1775484598554" duration="2714000" />
-      <workItem from="1775488994580" duration="4916000" />
+      <workItem from="1775488994580" duration="5000000" />
+      <workItem from="1775632379080" duration="88000" />
+      <workItem from="1775908943921" duration="8333000" />
     </task>
     <servers />
   </component>

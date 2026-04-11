@@ -16,38 +16,16 @@
 
 
 \begin{document}
+
 \begin{titlepage}
-  \centering
-  \includesvg[width=0.30\textwidth]{media/ucll-logo}
-
-  \vspace{2cm}
-  {\LARGE {\textit{Bachelor Project Applied Computer Science} \\ (Academic year 2025---2026)} \par}
-
-  \vspace{4cm}
-  {\Huge \textbf{Federated Learning} \par}
-
-  \raggedright
-  \vspace{5cm}
-  {\Large Authors: \par}
-
-  \vspace{.2cm}
-  {\Large Matej Vesel \par}
-  {\Large Manja Gorenc Novak \par}
-
-  \vspace{0.8cm}
-  {\Large Client: \par}
-  {\Large eEarly \par}
-
-  \vspace{0.8cm}
-  {\Large Coach: \par}
-  {\Large Manja Gorenc Novak \par}
-
-  \vfill
+\input{sections/title-page} \label{sec:title}
 \end{titlepage}
 
 \newpage
 
+\hypersetup{linkcolor=black}
 \tableofcontents
+\hypersetup{linkcolor=blue}
 
 \newpage
 
@@ -61,19 +39,26 @@ Once you're familiar with the editor, you can find various project settings in t
 To view tutorials, user guides, and further documentation, please visit our \href{https://www.overleaf.com/learn}{help library}, or head to our plans page to \href{https://www.overleaf.com/user/subscription/plans}{choose your plan}.
 
 \section{Scope \& Vision} \label{sec:scope-and-vision}
-\input{sections/01-scope-and-vision}
+\input{sections/scope-and-vision}
 
 \section{Software Requirements Specification} \label{sec:software-requirements-specification}
-\input{sections/02-software-requirements-specification}
+\input{sections/software-requirements-specification}
 
-\section{Preliminary research} \label{sec:preliminary-research}
-\input{sections/03-preliminary-research}
+\section{Preliminary Research} \label{sec:preliminary-research}
+\input{sections/preliminary-research}
 
 \section{Reflection} \label{sec:reflection}
-\input{sections/04-reflection}
+\input{sections/reflection}
 
 \section{Appendices} \label{sec:appendices}
-\input{sections/05-appendices}
+\input{sections/appendices}
+
+\section{How to add Citations and a References List}
+
+You can simply upload a \verb|.bib| file containing your BibTeX entries, created with a tool such as JabRef. You can then cite entries from it, like this: \cite{greenwade93}. Just remember to specify a bibliography style, as well as the filename of the \verb|.bib|. You can find a \href{https://www.overleaf.com/help/97-how-to-include-a-bibliography-using-bibtex}{video tutorial here} to learn more about BibTeX.
+
+\bibliographystyle{alpha}
+\bibliography{sample}
 
 
 \end{document}

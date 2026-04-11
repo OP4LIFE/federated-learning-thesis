@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.6)  6 APR 2026 18:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.6)  11 APR 2026 17:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -445,40 +445,157 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 (/home/veselm/OneDrive/Documentss/notes/ucll/diplomsko_delo/During Bachelor Pro
 ject/Template individual/bachelor_work/out/main.aux
 
-LaTeX Warning: Label `fig:frog' multiply defined.
+LaTeX Warning: Label `q' multiply defined.
 
 
-LaTeX Warning: Label `tab:widgets' multiply defined.
+LaTeX Warning: Label `q' multiply defined.
 
 
-LaTeX Warning: Label `greenwade93' multiply defined.
+LaTeX Warning: Label `q' multiply defined.
 
 
-LaTeX Warning: Label `fig:frog' multiply defined.
+LaTeX Warning: Label `q' multiply defined.
 
 
-LaTeX Warning: Label `tab:widgets' multiply defined.
+LaTeX Warning: Label `q' multiply defined.
 
 
-LaTeX Warning: Label `greenwade93' multiply defined.
+LaTeX Warning: Label `q' multiply defined.
 
 
-LaTeX Warning: Label `fig:frog' multiply defined.
+LaTeX Warning: Label `q' multiply defined.
 
 
-LaTeX Warning: Label `tab:widgets' multiply defined.
+LaTeX Warning: Label `q' multiply defined.
 
 
-LaTeX Warning: Label `greenwade93' multiply defined.
+LaTeX Warning: Label `q' multiply defined.
 
 
-LaTeX Warning: Label `fig:frog' multiply defined.
+LaTeX Warning: Label `q' multiply defined.
 
 
-LaTeX Warning: Label `tab:widgets' multiply defined.
+LaTeX Warning: Label `q' multiply defined.
 
 
-LaTeX Warning: Label `greenwade93' multiply defined.
+LaTeX Warning: Label `q' multiply defined.
+
+
+LaTeX Warning: Label `q' multiply defined.
+
+
+LaTeX Warning: Label `q' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `q' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `q' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `q' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `q' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `qq' multiply defined.
+
+
+LaTeX Warning: Label `q' multiply defined.
+
+
+LaTeX Warning: Label `q' multiply defined.
+
+
+LaTeX Warning: Label `q' multiply defined.
+
+
+LaTeX Warning: Label `q' multiply defined.
+
+
+LaTeX Warning: Label `q' multiply defined.
+
+
+LaTeX Warning: Label `q' multiply defined.
+
+
+LaTeX Warning: Label `q' multiply defined.
+
+
+LaTeX Warning: Label `q' multiply defined.
 
 )
 \openout1 = `main.aux'.
@@ -567,97 +684,43 @@ ject/Template individual/bachelor_work/out/main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
+ (./sections/title-page.tex
 Package svg Info: Last page of `./svg-inkscape/ucll-logo_svg-tex.pdf' is 1 on i
-nput line 21.
-
+nput line 2.
 (./svg-inkscape/ucll-logo_svg-tex.pdf_tex
-<./svg-inkscape/ucll-logo_svg-tex.pdf, id=233, page=1, 176.91093pt x 67.75313pt
->
+<./svg-inkscape/ucll-logo_svg-tex.pdf, id=40, page=1, 176.91093pt x 67.75313pt>
+
 File: ./svg-inkscape/ucll-logo_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/ucll-logo_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/ucll-logo_svg-tex.pdf , page1 used on i
 nput line 56.
 (pdftex.def)             Requested size: 133.07489pt x 50.96564pt.
-) [1
+)) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./svg-inkscape/ucll-logo_s
 vg-tex.pdf>]
 (/home/veselm/OneDrive/Documentss/notes/ucll/diplomsko_delo/During Bachelor Pro
-ject/Template individual/bachelor_work/out/main.toc
+ject/Template individual/bachelor_work/out/main.toc)
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.53 ... to write Mathematics}{11}{subsection.6.6}
-                                                  % [1])
-\tf@toc=\write5
-\openout5 = `main.toc'.
+l.30 \newpage
+              [1] (./sections/scope-and-vision.tex)
+(./sections/software-requirements-specification.tex)
+(./sections/preliminary-research.tex) (./sections/reflection.tex [2]
+Overfull \hbox (35.76498pt too wide) in paragraph at lines 23--24
+[] \OT1/cmr/bx/n/10 What im-pact do you think the re-search or de-vel-oped tool
+ has on peo-ple (ethics/inclusion)?
+ []
 
- [2]
-(./sections/01-scope-and-vision.tex
-<media/frog.jpg, id=315, 748.7975pt x 741.77126pt>
-File: media/frog.jpg Graphic file (type jpg)
-<use media/frog.jpg>
-Package pdftex.def Info: media/frog.jpg  used on input line 13.
-(pdftex.def)             Requested size: 110.8946pt x 109.84607pt.
- [3 <./media/frog.jpg>] [4{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t
-s1.enc}]
+) (./sections/appendices.tex)
 (/home/veselm/OneDrive/Documentss/notes/ucll/diplomsko_delo/During Bachelor Pro
-ject/Template individual/bachelor_work/out/main.bbl))
-(./sections/02-software-requirements-specification.tex
-File: media/frog.jpg Graphic file (type jpg)
-<use media/frog.jpg>
-Package pdftex.def Info: media/frog.jpg  used on input line 13.
-(pdftex.def)             Requested size: 110.8946pt x 109.84607pt.
- [5] [6]
-(/home/veselm/OneDrive/Documentss/notes/ucll/diplomsko_delo/During Bachelor Pro
-ject/Template individual/bachelor_work/out/main.bbl
-pdfTeX warning (ext4): destination with the same identifier (name{cite.greenwad
-e93}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.3 \bibitem[Gre93]{greenwade93}
-                                )) (./sections/03-preliminary-research.tex
-File: media/frog.jpg Graphic file (type jpg)
-<use media/frog.jpg>
-Package pdftex.def Info: media/frog.jpg  used on input line 13.
-(pdftex.def)             Requested size: 110.8946pt x 109.84607pt.
-
-[7] [8]
-(/home/veselm/OneDrive/Documentss/notes/ucll/diplomsko_delo/During Bachelor Pro
-ject/Template individual/bachelor_work/out/main.bbl
-pdfTeX warning (ext4): destination with the same identifier (name{cite.greenwad
-e93}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.3 \bibitem[Gre93]{greenwade93}
-                                )) (./sections/04-reflection.tex
-File: media/frog.jpg Graphic file (type jpg)
-<use media/frog.jpg>
-Package pdftex.def Info: media/frog.jpg  used on input line 13.
-(pdftex.def)             Requested size: 110.8946pt x 109.84607pt.
- [9] [10]
-(/home/veselm/OneDrive/Documentss/notes/ucll/diplomsko_delo/During Bachelor Pro
-ject/Template individual/bachelor_work/out/main.bbl
-pdfTeX warning (ext4): destination with the same identifier (name{cite.greenwad
-e93}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.3 \bibitem[Gre93]{greenwade93}
-                                )) (./sections/05-appendices.tex
-File: media/frog.jpg Graphic file (type jpg)
-<use media/frog.jpg>
-Package pdftex.def Info: media/frog.jpg  used on input line 13.
-(pdftex.def)             Requested size: 110.8946pt x 109.84607pt.
- [11] [12]
-(/home/veselm/OneDrive/Documentss/notes/ucll/diplomsko_delo/During Bachelor Pro
-ject/Template individual/bachelor_work/out/main.bbl
-pdfTeX warning (ext4): destination with the same identifier (name{cite.greenwad
-e93}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.3 \bibitem[Gre93]{greenwade93}
-                                )) [13]
+ject/Template individual/bachelor_work/out/main.bbl) [3]
 (/home/veselm/OneDrive/Documentss/notes/ucll/diplomsko_delo/During Bachelor Pro
 ject/Template individual/bachelor_work/out/main.aux)
  ***********
@@ -669,35 +732,30 @@ L3 programming layer <2024-01-22>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8254EBA3007C81E1E6FAB2DC78E2ACE9;12038.
+(rerunfilecheck)             Checksum: BEAA62AAD8EB9A95FABFA36904264F13;1248.
  ) 
 Here is how much of TeX's memory you used:
- 13418 strings out of 474222
- 228718 string characters out of 5748734
- 1943975 words of memory out of 5000000
- 35329 multiletter control sequences out of 15000+600000
- 562142 words of font info for 50 fonts, out of 8000000 for 9000
+ 13258 strings out of 474222
+ 225389 string characters out of 5748734
+ 1932975 words of memory out of 5000000
+ 35258 multiletter control sequences out of 15000+600000
+ 561807 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,8n,93p,520b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,7n,93p,451b,515s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></u
-sr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmtt10.pfb>
 Output written on "/home/veselm/OneDrive/Documentss/notes/ucll/diplomsko_delo/D
-uring Bachelor Project/Template individual/bachelor_work/out/main.pdf" (14 page
-s, 317495 bytes).
+uring Bachelor Project/Template individual/bachelor_work/out/main.pdf" (4 pages
+, 132406 bytes).
 PDF statistics:
- 540 PDF objects out of 1000 (max. 8388607)
- 488 compressed objects within 5 object streams
- 97 named destinations out of 1000 (max. 500000)
- 476 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 122 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
+ 15 named destinations out of 1000 (max. 500000)
+ 87 words of extra memory for PDF output out of 10000 (max. 10000000)
 
