@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="746c0b5d-c887-4cb7-befb-430936f101f4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/out/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.out" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/out/main.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/preliminary-research.tex" beforeDir="false" afterPath="$PROJECT_DIR$/sections/preliminary-research.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/reflection.tex" beforeDir="false" afterPath="$PROJECT_DIR$/sections/reflection.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/scope-and-vision.tex" beforeDir="false" afterPath="$PROJECT_DIR$/sections/scope-and-vision.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/software-requirements-specification.tex" beforeDir="false" afterPath="$PROJECT_DIR$/sections/software-requirements-specification.tex" afterDir="false" />
-    </list>
+    <list default="true" id="746c0b5d-c887-4cb7-befb-430936f101f4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +126,7 @@
       <workItem from="1775484598554" duration="2714000" />
       <workItem from="1775488994580" duration="5000000" />
       <workItem from="1775632379080" duration="88000" />
-      <workItem from="1775908943921" duration="8663000" />
+      <workItem from="1775908943921" duration="8901000" />
     </task>
     <servers />
   </component>
