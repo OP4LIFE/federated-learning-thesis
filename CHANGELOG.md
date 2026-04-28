@@ -17,6 +17,7 @@
 
 ### ⚙️ Miscellaneous Tasks
 
+- Changed changelog.
 - Gitignore.
 - Gitignore
 - Gitignore.
