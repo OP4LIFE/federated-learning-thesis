@@ -3,6 +3,7 @@
 ### 🚀 Features
 
 - Added changelog.
+- Added changelog.
 - Organized questions to each chapter.
 - LICENSE
 - Small title changes.
