@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.6)  28 APR 2026 13:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.6)  28 APR 2026 14:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -582,6 +582,9 @@ LaTeX Warning: Label `q' multiply defined.
 
 LaTeX Warning: Label `q' multiply defined.
 
+
+LaTeX Warning: Label `q' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -938,7 +941,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
 )
 (/home/veselm/OneDrive/Documentss/projekti/diplomsko_delo/repositories/bachelor
-_work/out/main.bbl) [5]
+_work/out/main.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [5]
 (/home/veselm/OneDrive/Documentss/projekti/diplomsko_delo/repositories/bachelor
 _work/out/main.aux)
  ***********
@@ -953,11 +960,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: F761D66ABF47D362820239EB0525329F;4827.
  ) 
 Here is how much of TeX's memory you used:
- 13303 strings out of 474222
- 225662 string characters out of 5748734
+ 13295 strings out of 474222
+ 225566 string characters out of 5748734
  1935975 words of memory out of 5000000
- 35278 multiletter control sequences out of 15000+600000
- 561639 words of font info for 48 fonts, out of 8000000 for 9000
+ 35272 multiletter control sequences out of 15000+600000
+ 561293 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,7n,93p,407b,513s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
@@ -965,13 +972,12 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmti12.pfb>
+fonts/type1/public/amsfonts/cm/cmti12.pfb>
 Output written on /home/veselm/OneDrive/Documentss/projekti/diplomsko_delo/repo
-sitories/bachelor_work/out/main.pdf (6 pages, 126278 bytes).
+sitories/bachelor_work/out/main.pdf (6 pages, 115630 bytes).
 PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
- 222 compressed objects within 3 object streams
- 41 named destinations out of 1000 (max. 500000)
+ 243 PDF objects out of 1000 (max. 8388607)
+ 218 compressed objects within 3 object streams
+ 40 named destinations out of 1000 (max. 500000)
  279 words of extra memory for PDF output out of 10000 (max. 10000000)
 
