@@ -1,7 +1,8 @@
-## [unreleased]
+## [1.0.0] - 2026-04-28
 
 ### 🚀 Features
 
+- Added changelog.
 - Organized questions to each chapter.
 - LICENSE
 - Small title changes.
