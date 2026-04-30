@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.6)  29 APR 2026 15:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.6)  30 APR 2026 09:09
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -576,9 +576,6 @@ LaTeX Warning: Label `q' multiply defined.
 
 LaTeX Warning: Label `q' multiply defined.
 
-
-LaTeX Warning: Label `q' multiply defined.
-
 )
 \openout1 = `main.aux'.
 
@@ -694,22 +691,17 @@ been already used, duplicate ignored
                    \relax 
 l.30 \newpage
               [1] (./sections/scope-and-vision.tex
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--20
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
@@ -947,10 +939,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: E8E9E35A572FEE18EF1405814B8FD2A7;5075.
  ) 
 Here is how much of TeX's memory you used:
- 13320 strings out of 474222
- 226407 string characters out of 5748734
+ 13323 strings out of 474222
+ 226468 string characters out of 5748734
  1936975 words of memory out of 5000000
- 35287 multiletter control sequences out of 15000+600000
+ 35289 multiletter control sequences out of 15000+600000
  561293 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,7n,93p,857b,515s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -961,10 +953,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti12.pfb>
 Output written on /home/veselm/OneDrive/Documentss/projekti/diplomsko_delo/repo
-sitories/bachelor_work/out/main.pdf (10 pages, 121808 bytes).
+sitories/bachelor_work/out/main.pdf (10 pages, 123024 bytes).
 PDF statistics:
- 265 PDF objects out of 1000 (max. 8388607)
- 236 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
+ 269 PDF objects out of 1000 (max. 8388607)
+ 240 compressed objects within 3 object streams
+ 46 named destinations out of 1000 (max. 500000)
  279 words of extra memory for PDF output out of 10000 (max. 10000000)
 
