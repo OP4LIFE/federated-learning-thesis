@@ -10,50 +10,52 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: bachelor-work.bib
 Warning--entry type for "FederatedLearning2026" isn't style-file defined
 --line 11 of file bachelor-work.bib
+Warning--entry type for "MoSCoWMethod2026" isn't style-file defined
+--line 23 of file bachelor-work.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 2 entries,
+You've used 3 entries,
             4087 wiz_defined-function locations,
-            831 strings with 7498 characters,
-and the built_in function-call counts, 667 in all, are:
-= -- 37
-> -- 2
+            835 strings with 7620 characters,
+and the built_in function-call counts, 942 in all, are:
+= -- 53
+> -- 3
 < -- 0
-+ -- 2
++ -- 3
 - -- 0
-* -- 34
-:= -- 124
-add.period$ -- 4
-call.type$ -- 2
-change.case$ -- 2
+* -- 43
+:= -- 168
+add.period$ -- 6
+call.type$ -- 3
+change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 52
-empty$ -- 66
+cite$ -- 3
+duplicate$ -- 79
+empty$ -- 99
 format.name$ -- 0
-if$ -- 129
+if$ -- 190
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 12
-newline$ -- 33
+int.to.str$ -- 3
+missing$ -- 18
+newline$ -- 38
 num.names$ -- 0
-pop$ -- 46
+pop$ -- 70
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 42
+skip$ -- 62
 stack$ -- 0
-substring$ -- 1
-swap$ -- 23
+substring$ -- 2
+swap$ -- 34
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 2
+type$ -- 3
 warning$ -- 0
 while$ -- 0
-width$ -- 3
-write$ -- 39
-(There was 1 warning)
+width$ -- 4
+write$ -- 47
+(There were 2 warnings)
