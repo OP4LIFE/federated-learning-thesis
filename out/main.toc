@@ -12,6 +12,8 @@
 \contentsline {section}{\numberline {3}Preliminary Research (12, 1140)}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Related projects}{5}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Related solutions}{5}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Decentralized Learning}{5}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Privacy}{5}{subsubsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.3}Required technology}{5}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Comparative study}{6}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Final selected technology / project tools}{6}{subsection.3.5}%
