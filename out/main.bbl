@@ -39,4 +39,30 @@
   \url{https://en.wikipedia.org/w/index.php?title=MoSCoW_method&oldid=1332761640}
 \BIBentrySTDinterwordspacing
 
+\bibitem{mammenFederatedLearningOpportunities2021a}
+\BIBentryALTinterwordspacing
+P.~M. Mammen. Federated {{Learning}}: {{Opportunities}} and {{Challenges}}.
+  [Online]. Available: \url{http://arxiv.org/abs/2101.05428}
+\BIBentrySTDinterwordspacing
+
+\bibitem{FederatedLearningCollaborativea}
+\BIBentryALTinterwordspacing
+Federated {{Learning}}: {{Collaborative Machine Learning}} without
+  {{Centralized Training}}. [Online]. Available:
+  \url{https://research.google/blog/federated-learning-collaborative-machine-learning-without-centralized-training-data/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{baiAdvancingCOVID19Diagnosis2021}
+\BIBentryALTinterwordspacing
+X.~Bai, H.~Wang, L.~Ma, Y.~Xu, J.~Gan, Z.~Fan, F.~Yang, K.~Ma, J.~Yang, S.~Bai,
+  C.~Shu, X.~Zou, R.~Huang, C.~Zhang, X.~Liu, D.~Tu, C.~Xu, W.~Zhang, X.~Wang,
+  A.~Chen, Y.~Zeng, D.~Yang, M.-W. Wang, N.~Holalkere, N.~J. Halin, I.~R.
+  Kamel, J.~Wu, X.~Peng, X.~Wang, J.~Shao, P.~Mongkolwat, J.~Zhang, W.~Liu,
+  M.~Roberts, Z.~Teng, L.~Beer, L.~E. Sanchez, E.~Sala, D.~Rubin, A.~Weller,
+  J.~Lasenby, C.~Zheng, J.~Wang, Z.~Li, C.-B. Schönlieb, and T.~Xia,
+  ``Advancing {{COVID-19 Diagnosis}} with {{Privacy-Preserving Collaboration}}
+  in {{Artificial Intelligence}},'' vol.~3, no.~12, pp. 1081--1089. [Online].
+  Available: \url{http://arxiv.org/abs/2111.09461}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}
