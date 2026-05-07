@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.6)  7 MAY 2026 09:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.6)  7 MAY 2026 17:33
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -715,49 +715,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-[3]) [4] (./sections/preliminary-research.tex
-Overfull \hbox (13.8251pt too wide) in paragraph at lines 32--37
-\OT1/cmr/m/n/10 Decentralized learn-ing: - Fog com-put-ing - Gos-sip learn-ing 
-/cite-hege-dus-De-cen-tral-izedLearn-ing-Works2021b,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+[3]) [4] (./sections/preliminary-research.tex [5]
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
@@ -891,13 +885,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 ) [12]
 (/home/veselm/OneDrive/Documentss/projekti/diplomsko_delo/repositories/bachelor
 _work/out/main.bbl
-Underfull \hbox (badness 2384) in paragraph at lines 44--48
+Underfull \hbox (badness 2126) in paragraph at lines 44--48
 []\OT1/cmr/m/n/10 Federated Learn-ing: Col-lab-o-ra-tive Ma-chine Learn-ing wit
 h-out Cen-
  []
 
 
-Underfull \hbox (badness 6078) in paragraph at lines 44--48
+Underfull \hbox (badness 5403) in paragraph at lines 44--48
 \OT1/cmr/m/n/10 tral-ized Train-ing. [On-line]. Avail-able: [][]$https : / / re
 search . google / blog /
  []
@@ -917,10 +911,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: FB9B1B4DEF1A9A4DA81EC0629067C24B;5510.
  ) 
 Here is how much of TeX's memory you used:
- 13351 strings out of 474222
- 227031 string characters out of 5748734
+ 13356 strings out of 474222
+ 227206 string characters out of 5748734
  1937975 words of memory out of 5000000
- 35297 multiletter control sequences out of 15000+600000
+ 35300 multiletter control sequences out of 15000+600000
  561639 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,7n,93p,860b,515s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -932,10 +926,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmti12.pfb>
 Output written on /home/veselm/OneDrive/Documentss/projekti/diplomsko_delo/repo
-sitories/bachelor_work/out/main.pdf (14 pages, 149409 bytes).
+sitories/bachelor_work/out/main.pdf (14 pages, 153178 bytes).
 PDF statistics:
- 337 PDF objects out of 1000 (max. 8388607)
- 301 compressed objects within 4 object streams
- 65 named destinations out of 1000 (max. 500000)
+ 346 PDF objects out of 1000 (max. 8388607)
+ 310 compressed objects within 4 object streams
+ 67 named destinations out of 1000 (max. 500000)
  303 words of extra memory for PDF output out of 10000 (max. 10000000)
 

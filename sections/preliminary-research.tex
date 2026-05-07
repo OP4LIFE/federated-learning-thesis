@@ -1,4 +1,4 @@
-\subsection{Federated Learning}
+\subsection{Federated Learning} \label{sec:federative-learning}
 Imagine there are researchers working on a project and they do not tell each other anything about themselves, their names, education, age\ldots They only contribute with their current knowledge without revealing their personal information. This is what federated learning tries to achieve~\cite{FederatedLearningCollaborativea}. Later on I talk about global and local models, in this example, researchers play a role of local models, and the project would be a global model.
 
 Federated learning is a \emph{decentralized learning} technique, which means the learning is not accomplished centrally on a single device --- normally a server --- but is kept on the edge, close to the main source of the data. Since it is decentralized, this also leads to great benefits regarding \emph{privacy} and regulations as data is not moved out of its safe zone. In practice, we accomplish this using two types artificial intelligence models: global and local. The algorithm~\cite{strykerWhatFederatedLearning2025} contains the following steps:
@@ -27,21 +27,16 @@ During COVID-19 pandemic, researchers all over the world have established connec
 \subsection{Related solutions} % v1.0.0
 
 %Are there already similar digital solutions or tools that address this? \label{q} \newline % v1.0.0
-
+Main characteristics of federative learning described in section~\ref{sec:federative-learning} are decentralized learning and privacy; I use this two for finding related solutions below.
 
 \subsubsection{Decentralized Learning}
 
-Fog computing is an improved approach on top of federated learning. It originates from the network challenges of federated learning,  focuses on layered architecture of communication between local and global model, and aims to reduce network traffic~\cite{gorrichoMASTERSDEGREETELECOMMUNICATIONS}.
+\emph{Fog computing} is an improved approach on top of federated learning. It originates from the network challenges of federated learning,  focuses on layered architecture of communication between local and global model, and aims to reduce network traffic~\cite{gorrichoMASTERSDEGREETELECOMMUNICATIONS}.
 
+Being a decentralized technique, federated learning still has a central, global model that aggregates all parameter updates. \emph{Gossip learning} --- also called distributed federated learning (DFL)~\cite{shammarSwarmLearningSurvey2025} --- is even simpler in this sense, as it does not have a global model. The updates and aggregations are all taken care by the local models themselves~\cite{hegedusDecentralizedLearningWorks2021b}.
 
+Similar to gossip learning is \emph{swarm learning}. The main difference is its use of blockchain peer-to-peer communication that is configured between the local models. This enables swarm learning to be a very related solution, with even better potential privacy and fault tolerance (because there is no single point of failure like the global model server)~\cite{shammarSwarmLearningSurvey2025}.
 
-Decentralized learning:
-- Fog computing
-- Gossip learning /cite{hegedusDecentralizedLearningWorks2021b, hegedusGossipLearningDecentralized2019}
-- Swarm learning
-- Decentralized reinforcement learning
-
-\cite{gorrichoMASTERSDEGREETELECOMMUNICATIONS}
 
 %Challenges: https://arxiv.org/pdf/2308.04604
 \subsubsection{Privacy}

@@ -19,47 +19,49 @@ Warning--empty journal in baiAdvancingCOVID19Diagnosis2021
 Warning--empty year in baiAdvancingCOVID19Diagnosis2021
 Warning--empty journal in gorrichoMASTERSDEGREETELECOMMUNICATIONS
 Warning--empty year in gorrichoMASTERSDEGREETELECOMMUNICATIONS
+Warning--empty journal in hegedusDecentralizedLearningWorks2021b
+Warning--empty year in hegedusDecentralizedLearningWorks2021b
 
 Done.
-You've used 8 entries,
+You've used 10 entries,
             4087 wiz_defined-function locations,
-            860 strings with 9448 characters,
-and the built_in function-call counts, 4572 in all, are:
-= -- 254
-> -- 211
-< -- 13
-+ -- 110
-- -- 49
-* -- 214
-:= -- 649
-add.period$ -- 15
-call.type$ -- 8
-change.case$ -- 8
-chr.to.int$ -- 30
-cite$ -- 12
-duplicate$ -- 334
-empty$ -- 376
-format.name$ -- 50
-if$ -- 1019
+            872 strings with 9986 characters,
+and the built_in function-call counts, 5838 in all, are:
+= -- 350
+> -- 245
+< -- 23
++ -- 128
+- -- 55
+* -- 275
+:= -- 841
+add.period$ -- 19
+call.type$ -- 10
+change.case$ -- 10
+chr.to.int$ -- 54
+cite$ -- 16
+duplicate$ -- 422
+empty$ -- 471
+format.name$ -- 58
+if$ -- 1305
 int.to.chr$ -- 0
-int.to.str$ -- 8
-missing$ -- 96
-newline$ -- 61
-num.names$ -- 4
-pop$ -- 309
+int.to.str$ -- 10
+missing$ -- 114
+newline$ -- 71
+num.names$ -- 6
+pop$ -- 362
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 308
+skip$ -- 398
 stack$ -- 0
-substring$ -- 74
-swap$ -- 229
-text.length$ -- 3
+substring$ -- 131
+swap$ -- 298
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 8
-warning$ -- 4
-while$ -- 8
-width$ -- 9
-write$ -- 91
-(There were 6 warnings)
+type$ -- 10
+warning$ -- 6
+while$ -- 14
+width$ -- 12
+write$ -- 111
+(There were 8 warnings)
