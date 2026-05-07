@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.6)  5 MAY 2026 16:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.6)  7 MAY 2026 09:53
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -653,7 +653,7 @@ Package svg Info: Last page of `./svg-inkscape/ucll-logo_svg-tex.pdf' is 1 on i
 nput line 2.
 
 (./svg-inkscape/ucll-logo_svg-tex.pdf_tex
-<./svg-inkscape/ucll-logo_svg-tex.pdf, id=144, page=1, 176.91093pt x 67.75313pt
+<./svg-inkscape/ucll-logo_svg-tex.pdf, id=148, page=1, 176.91093pt x 67.75313pt
 >
 File: ./svg-inkscape/ucll-logo_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/ucll-logo_svg-tex.pdf, page 1>
@@ -716,13 +716,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
  []
 
 [3]) [4] (./sections/preliminary-research.tex
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-
+Overfull \hbox (13.8251pt too wide) in paragraph at lines 32--37
+\OT1/cmr/m/n/10 Decentralized learn-ing: - Fog com-put-ing - Gos-sip learn-ing 
+/cite-hege-dus-De-cen-tral-izedLearn-ing-Works2021b,
  []
 
 
@@ -730,12 +726,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-[5]
+
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
@@ -746,16 +742,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
-[6]) [7] (./sections/reflection/reflection.tex
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+) [7] (./sections/reflection/reflection.tex
 (./sections/reflection/general-reflection/general-reflection.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
@@ -885,13 +891,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 ) [12]
 (/home/veselm/OneDrive/Documentss/projekti/diplomsko_delo/repositories/bachelor
 _work/out/main.bbl
-Underfull \hbox (badness 2384) in paragraph at lines 50--54
+Underfull \hbox (badness 2384) in paragraph at lines 44--48
 []\OT1/cmr/m/n/10 Federated Learn-ing: Col-lab-o-ra-tive Ma-chine Learn-ing wit
 h-out Cen-
  []
 
 
-Underfull \hbox (badness 6078) in paragraph at lines 50--54
+Underfull \hbox (badness 6078) in paragraph at lines 44--48
 \OT1/cmr/m/n/10 tral-ized Train-ing. [On-line]. Avail-able: [][]$https : / / re
 search . google / blog /
  []
@@ -908,14 +914,14 @@ L3 programming layer <2024-01-22>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C69A4472865D2A0A4E286924EBCAF5F8;5359.
+(rerunfilecheck)             Checksum: FB9B1B4DEF1A9A4DA81EC0629067C24B;5510.
  ) 
 Here is how much of TeX's memory you used:
- 13335 strings out of 474222
- 226726 string characters out of 5748734
- 1936975 words of memory out of 5000000
- 35291 multiletter control sequences out of 15000+600000
- 561293 words of font info for 47 fonts, out of 8000000 for 9000
+ 13351 strings out of 474222
+ 227031 string characters out of 5748734
+ 1937975 words of memory out of 5000000
+ 35297 multiletter control sequences out of 15000+600000
+ 561639 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,7n,93p,860b,515s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
@@ -923,12 +929,13 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmti12.pfb>
+fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmti12.pfb>
 Output written on /home/veselm/OneDrive/Documentss/projekti/diplomsko_delo/repo
-sitories/bachelor_work/out/main.pdf (14 pages, 136013 bytes).
+sitories/bachelor_work/out/main.pdf (14 pages, 149409 bytes).
 PDF statistics:
- 313 PDF objects out of 1000 (max. 8388607)
- 280 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
- 295 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 337 PDF objects out of 1000 (max. 8388607)
+ 301 compressed objects within 4 object streams
+ 65 named destinations out of 1000 (max. 500000)
+ 303 words of extra memory for PDF output out of 10000 (max. 10000000)
 

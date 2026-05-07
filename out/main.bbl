@@ -39,17 +39,23 @@
   \url{https://en.wikipedia.org/w/index.php?title=MoSCoW_method&oldid=1332761640}
 \BIBentrySTDinterwordspacing
 
-\bibitem{mammenFederatedLearningOpportunities2021a}
-\BIBentryALTinterwordspacing
-P.~M. Mammen. Federated {{Learning}}: {{Opportunities}} and {{Challenges}}.
-  [Online]. Available: \url{http://arxiv.org/abs/2101.05428}
-\BIBentrySTDinterwordspacing
-
 \bibitem{FederatedLearningCollaborativea}
 \BIBentryALTinterwordspacing
 Federated {{Learning}}: {{Collaborative Machine Learning}} without
   {{Centralized Training}}. [Online]. Available:
   \url{https://research.google/blog/federated-learning-collaborative-machine-learning-without-centralized-training-data/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{strykerWhatFederatedLearning2025}
+\BIBentryALTinterwordspacing
+R.~D.~C. Stryker, Cole. What {{Is Federated Learning}}? | {{IBM}}. [Online].
+  Available: \url{https://www.ibm.com/think/topics/federated-learning}
+\BIBentrySTDinterwordspacing
+
+\bibitem{mammenFederatedLearningOpportunities2021a}
+\BIBentryALTinterwordspacing
+P.~M. Mammen. Federated {{Learning}}: {{Opportunities}} and {{Challenges}}.
+  [Online]. Available: \url{http://arxiv.org/abs/2101.05428}
 \BIBentrySTDinterwordspacing
 
 \bibitem{baiAdvancingCOVID19Diagnosis2021}
@@ -64,5 +70,9 @@ X.~Bai, H.~Wang, L.~Ma, Y.~Xu, J.~Gan, Z.~Fan, F.~Yang, K.~Ma, J.~Yang, S.~Bai,
   in {{Artificial Intelligence}},'' vol.~3, no.~12, pp. 1081--1089. [Online].
   Available: \url{http://arxiv.org/abs/2111.09461}
 \BIBentrySTDinterwordspacing
+
+\bibitem{gorrichoMASTERSDEGREETELECOMMUNICATIONS}
+P.~J.-L. Gorricho, ``{{MASTER}}’{{S DEGREE IN TELECOMMUNICATIONS
+  ENGINEERING}}.''
 
 \end{thebibliography}

@@ -10,14 +10,15 @@
 \contentsline {subsection}{\numberline {2.2}Method}{3}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Requirements}{3}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Preliminary Research (12, 1140)}{5}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Related projects}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Related solutions}{5}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Decentralized Learning}{5}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Privacy}{5}{subsubsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.3}Required technology}{5}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Comparative study}{6}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Final selected technology / project tools}{6}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Choice reflection}{7}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.1}Federated Learning}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Related projects}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Related solutions}{5}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Decentralized Learning}{5}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Privacy}{5}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}Required technology}{6}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Comparative study}{6}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Final selected technology / project tools}{7}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Choice reflection}{7}{subsection.3.7}%
 \contentsline {section}{\numberline {4}Reflection (16, 1520)}{8}{section.4}%
 \contentsline {subsection}{\numberline {4.1}General Reflection}{8}{subsection.4.1}%
 \contentsline {subsubsection}{\numberline {4.1.1}Achieved objectives}{8}{subsubsection.4.1.1}%

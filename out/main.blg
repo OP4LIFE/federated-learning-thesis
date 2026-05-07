@@ -11,53 +11,55 @@ Database file #1: bachelor-work.bib
 Warning--entry type for "FederatedLearning2026" isn't style-file defined
 --line 52 of file bachelor-work.bib
 Warning--entry type for "MoSCoWMethod2026" isn't style-file defined
---line 221 of file bachelor-work.bib
+--line 279 of file bachelor-work.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty journal in baiAdvancingCOVID19Diagnosis2021
 Warning--empty year in baiAdvancingCOVID19Diagnosis2021
+Warning--empty journal in gorrichoMASTERSDEGREETELECOMMUNICATIONS
+Warning--empty year in gorrichoMASTERSDEGREETELECOMMUNICATIONS
 
 Done.
-You've used 6 entries,
+You've used 8 entries,
             4087 wiz_defined-function locations,
-            851 strings with 9092 characters,
-and the built_in function-call counts, 3974 in all, are:
-= -- 215
-> -- 203
+            860 strings with 9448 characters,
+and the built_in function-call counts, 4572 in all, are:
+= -- 254
+> -- 211
 < -- 13
-+ -- 106
-- -- 47
-* -- 196
-:= -- 539
-add.period$ -- 11
-call.type$ -- 6
-change.case$ -- 6
++ -- 110
+- -- 49
+* -- 214
+:= -- 649
+add.period$ -- 15
+call.type$ -- 8
+change.case$ -- 8
 chr.to.int$ -- 30
-cite$ -- 8
-duplicate$ -- 279
-empty$ -- 313
-format.name$ -- 48
-if$ -- 890
+cite$ -- 12
+duplicate$ -- 334
+empty$ -- 376
+format.name$ -- 50
+if$ -- 1019
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 84
-newline$ -- 53
-num.names$ -- 2
-pop$ -- 268
+int.to.str$ -- 8
+missing$ -- 96
+newline$ -- 61
+num.names$ -- 4
+pop$ -- 309
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 265
+skip$ -- 308
 stack$ -- 0
-substring$ -- 73
-swap$ -- 205
+substring$ -- 74
+swap$ -- 229
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 6
-warning$ -- 2
-while$ -- 6
-width$ -- 7
-write$ -- 76
-(There were 4 warnings)
+type$ -- 8
+warning$ -- 4
+while$ -- 8
+width$ -- 9
+write$ -- 91
+(There were 6 warnings)

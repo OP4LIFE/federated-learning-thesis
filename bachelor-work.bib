@@ -81,11 +81,51 @@
   file = {/home/veselm/Zotero/storage/9U4KYTWS/federated-learning-collaborative-machine-learning-without-centralized-training-data.html}
 }
 
+@online{gabrielliSurveyDecentralizedFederated2026,
+  title = {A {{Survey}} on {{Decentralized Federated Learning}}},
+  author = {Gabrielli, Edoardo and Pietro, Anthony Di and Fenoglio, Dario and Pica, Giovanni and Tolomei, Gabriele},
+  date = {2026-03-10},
+  eprint = {2308.04604},
+  eprinttype = {arXiv},
+  eprintclass = {cs},
+  doi = {10.48550/arXiv.2308.04604},
+  url = {http://arxiv.org/abs/2308.04604},
+  urldate = {2026-05-06},
+  abstract = {Federated learning (FL) enables collaborative training without pooling raw data, but standard FL relies on a central coordinator, which introduces a single point of failure and concentrates trust in the orchestration infrastructure. Decentralized federated learning (DFL) removes the coordinator and replaces client–server orchestration with peer-to-peer coordination, making learning dynamics topology-dependent and reshaping the associated security, privacy, and systems trade-offs. This survey systematically reviews DFL methods from 2018 through early 2026 and organizes them into two architectural families: traditional distributed FL and blockchain-based FL. We then propose a unified, challenge-driven taxonomy that maps both families to the core bottlenecks they primarily address, and we summarize prevailing evaluation practices and their limitations, exposing gaps in the literature. Finally, we distill lessons learned and outline research directions, emphasizing topology-aware threat models, privacy notions that reflect decentralized exposure, incentive mechanisms robust to manipulation, and the need to explicitly define whether the objective is a single global model or personalized solutions in decentralized settings.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Cryptography and Security,Computer Science - Distributed Parallel and Cluster Computing,Computer Science - Machine Learning},
+  file = {/home/veselm/Zotero/storage/2PMQZBTF/Gabrielli et al. - 2026 - A Survey on Decentralized Federated Learning.pdf}
+}
+
 @article{gorrichoMASTERSDEGREETELECOMMUNICATIONS,
   title = {{{MASTER}}’{{S DEGREE IN TELECOMMUNICATIONS ENGINEERING}}},
   author = {Gorricho, Professor Juan-Luis},
   langid = {english},
+  keywords = {!},
   file = {/home/veselm/Zotero/storage/XKNWLVIS/Gorricho - MASTER’S DEGREE IN TELECOMMUNICATIONS ENGINEERING.pdf}
+}
+
+@article{hallajiDecentralizedFederatedLearning2024,
+  title = {Decentralized {{Federated Learning}}: {{A Survey}} on {{Security}} and {{Privacy}}},
+  shorttitle = {Decentralized {{Federated Learning}}},
+  author = {Hallaji, Ehsan and Razavi-Far, Roozbeh and Saif, Mehrdad and Wang, Boyu and Yang, Qiang},
+  date = {2024-04},
+  journaltitle = {IEEE Transactions on Big Data},
+  shortjournal = {IEEE Trans. Big Data},
+  volume = {10},
+  number = {2},
+  eprint = {2401.17319},
+  eprinttype = {arXiv},
+  eprintclass = {cs},
+  pages = {194--213},
+  issn = {2332-7790, 2372-2096},
+  doi = {10.1109/TBDATA.2024.3362191},
+  url = {http://arxiv.org/abs/2401.17319},
+  urldate = {2026-05-06},
+  abstract = {Federated learning has been rapidly evolving and gaining popularity in recent years due to its privacy-preserving features, among other advantages. Nevertheless, the exchange of model updates and gradients in this architecture provides new attack surfaces for malicious users of the network which may jeopardize the model performance and user and data privacy. For this reason, one of the main motivations for decentralized federated learning is to eliminate server-related threats by removing the server from the network and compensating for it through technologies such as blockchain. However, this advantage comes at the cost of challenging the system with new privacy threats. Thus, performing a thorough security analysis in this new paradigm is necessary. This survey studies possible variations of threats and adversaries in decentralized federated learning and overviews the potential defense mechanisms. Trustability and verifiability of decentralized federated learning are also considered in this study.},
+  langid = {english},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Cryptography and Security,Computer Science - Machine Learning,Statistics - Machine Learning},
+  file = {/home/veselm/Zotero/storage/2RIAMXX4/Hallaji et al. - 2024 - Decentralized Federated Learning A Survey on Security and Privacy.pdf}
 }
 
 @online{hardFederatedLearningMobile2019,
@@ -133,6 +173,24 @@
   pages = {109--124},
   doi = {10.1016/j.jpdc.2020.10.006},
   abstract = {Machine learning over distributed data stored by many clients has important applications in use cases where data privacy is a key concern or central data storage is not an option. Recently, federated learning was proposed to solve this problem. The assumption is that the data itself is not collected centrally. In a master–worker architecture, the workers perform machine learning over their own data and the master merely aggregates the resulting models without seeing any raw data, not unlike the parameter server approach. Gossip learning is a decentralized alternative to federated learning that does not require an aggregation server or indeed any central component. The natural hypothesis is that gossip learning is strictly less efficient than federated learning due to relying on a more basic infrastructure: only message passing and no cloud resources. In this empirical study, we examine this hypothesis and we present a systematic comparison of the two approaches. The experimental scenarios include a real churn trace collected over mobile phones, continuous and bursty communication patterns, different network sizes and different distributions of the training data over the devices. We also evaluate a number of additional techniques including a compression technique based on sampling, and token account based flow control for gossip learning. We examine the aggregated cost of machine learning in both approaches. Surprisingly, the best gossip variants perform comparably to the best federated learning variants overall, so they offer a fully decentralized alternative to federated learning.}
+}
+
+@article{hegedusDecentralizedLearningWorks2021b,
+  title = {Decentralized Learning Works: {{An}} Empirical Comparison of Gossip Learning and Federated Learning},
+  shorttitle = {Decentralized Learning Works},
+  author = {Hegedűs, István and Danner, Gábor and Jelasity, Márk},
+  date = {2021-02},
+  journaltitle = {Journal of Parallel and Distributed Computing},
+  shortjournal = {Journal of Parallel and Distributed Computing},
+  volume = {148},
+  pages = {109--124},
+  issn = {07437315},
+  doi = {10.1016/j.jpdc.2020.10.006},
+  url = {https://linkinghub.elsevier.com/retrieve/pii/S0743731520303890},
+  urldate = {2026-05-05},
+  abstract = {Machine learning over distributed data stored by many clients has important applications in use cases where data privacy is a key concern or central data storage is not an option. Recently, federated learning was proposed to solve this problem. The assumption is that the data itself is not collected centrally. In a master–worker architecture, the workers perform machine learning over their own data and the master merely aggregates the resulting models without seeing any raw data, not unlike the parameter server approach. Gossip learning is a decentralized alternative to federated learning that does not require an aggregation server or indeed any central component. The natural hypothesis is that gossip learning is strictly less efficient than federated learning due to relying on a more basic infrastructure: only message passing and no cloud resources. In this empirical study, we examine this hypothesis and we present a systematic comparison of the two approaches. The experimental scenarios include a real churn trace collected over mobile phones, continuous and bursty communication patterns, different network sizes and different distributions of the training data over the devices. We also evaluate a number of additional techniques including a compression technique based on sampling, and token account based flow control for gossip learning. We examine the aggregated cost of machine learning in both approaches. Surprisingly, the best gossip variants perform comparably to the best federated learning variants overall, so they offer a fully decentralized alternative to federated learning. © 2020 The Author(s). Published by Elsevier Inc. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).},
+  langid = {english},
+  file = {/home/veselm/Zotero/storage/72JZUYTI/Hegedűs et al. - 2021 - Decentralized learning works An empirical comparison of gossip learning and federated learning.pdf}
 }
 
 @inproceedings{hegedusGossipLearningDecentralized2019,
@@ -253,6 +311,13 @@
   urldate = {2026-05-02}
 }
 
+@article{qinDistributedLearningDecentralized,
+  title = {Distributed {{Learning}} and {{Decentralized}} Learning},
+  author = {Qin, Zhen},
+  langid = {english},
+  file = {/home/veselm/Zotero/storage/9GDWZEWJ/Qin - Distributed Learning and Decentralized learning.pdf}
+}
+
 @article{riekeFutureDigitalHealth2020,
   title = {The Future of Digital Health with Federated Learning},
   author = {Rieke, Nicola and Hancox, Jonny and Li, Wenqi and Milletarì, Fausto and Roth, Holger R. and Albarqouni, Shadi and Bakas, Spyridon and Galtier, Mathieu N. and Landman, Bennett A. and Maier-Hein, Klaus and Ourselin, Sébastien and Sheller, Micah and Summers, Ronald M. and Trask, Andrew and Xu, Daguang and Baust, Maximilian and Cardoso, M. Jorge},
@@ -316,6 +381,29 @@
   urldate = {2026-05-02},
   abstract = {The rapid growth of healthcare data, powered by advances in Electronic Health Records (EHRs), where sensors, medical imaging, and genetic technologies, has generated significant prospects in Machine Learning (ML) to improve disease diagnosis, treatment methodologies, and precision medicine. The sensitive and personally identifiable characteristics of medical data engender significant concerns over privacy, security, and adherence to regulations such as HIPAA and GDPR. To maintain ethical accountability and public trust, ML in healthcare must be executed with resilient Privacy-Preserving algorithms. In response to this critical necessity, Privacy-Preserving Machine Learning (PPML) has evolved as a viable method for safeguarding patient data while preserving model performance. This review paper focus on a systematic analysis of cryptographic, non-cryptographic, and hybrid models of privacy-preserving technologies in healthcare systems, which integrates several ways to enhance privacy and utility. Our review examines advanced methodologies such as Homomorphic Encryption, Secure Multiparty Computation (SMPC), Differential Privacy (DP), and Federated Learning (FL). Each technique is assessed according to its technology foundation, benefits, drawbacks, and relevance to particular clinical situations. Ultimately, our paper addresses the significant challenges of using PPML in real-world applications and proposes future research directions to facilitate the development of dependable, scalable, and privacy-aware medical AI systems.},
   keywords = {Cryptography,Healthcare,Machine learning,PPML techniques,Privacy}
+}
+
+@online{strykerWhatDistributedMachine2025,
+  title = {What {{Is Distributed Machine Learning}}? | {{IBM}}},
+  shorttitle = {What {{Is Distributed Machine Learning}}?},
+  author = {Stryker, Cole, Ivan Belcic},
+  date = {2025-09-30T00:00:00.000},
+  url = {https://www.ibm.com/think/topics/distributed-machine-learning},
+  urldate = {2026-05-06},
+  abstract = {Distributed machine learning (ML) is an approach to large-scale ML tasks where workloads are spread across multiple devices or processors instead of running on a single computer. Distributed ML is most often used for training large and complex models where computational demands are especially high.},
+  langid = {english},
+  file = {/home/veselm/Zotero/storage/HHWCXFCX/distributed-machine-learning.html}
+}
+
+@online{strykerWhatFederatedLearning2025,
+  title = {What {{Is Federated Learning}}? | {{IBM}}},
+  shorttitle = {What {{Is Federated Learning}}?},
+  author = {Stryker, Cole, Rina Diane Caballar},
+  date = {2025-04-02T00:00:00.000},
+  url = {https://www.ibm.com/think/topics/federated-learning},
+  urldate = {2026-05-07},
+  abstract = {Federated learning is a decentralized approach to training machine learning (ML) models. Each node across a distributed network trains a global model using its local data, with a central server aggregating node updates to improve the global model.},
+  langid = {english}
 }
 
 @article{teoFederatedMachineLearning2024,
