@@ -31,21 +31,26 @@ Main characteristics of federative learning described in section~\ref{sec:federa
 
 \subsubsection{Decentralized Learning}
 
-\emph{Fog computing} is an improved approach on top of federated learning. It originates from the network challenges of federated learning,  focuses on layered architecture of communication between local and global model, and aims to reduce network traffic~\cite{gorrichoMASTERSDEGREETELECOMMUNICATIONS}.
+\emph{Fog computing} is an improved approach on top of federated learning. It originates from the network challenges of federated learning,  focuses on layered architecture of communication between local and global model, and aims to reduce network traffic. \cite{gorrichoMASTERSDEGREETELECOMMUNICATIONS}
 
-Being a decentralized technique, federated learning still has a central, global model that aggregates all parameter updates. \emph{Gossip learning} --- also called distributed federated learning (DFL)~\cite{shammarSwarmLearningSurvey2025} --- is even simpler in this sense, as it does not have a global model. The updates and aggregations are all taken care by the local models themselves~\cite{hegedusDecentralizedLearningWorks2021b}.
+Being a decentralized technique, federated learning still has a central, global model that aggregates all parameter updates. \emph{Gossip learning} --- also called distributed federated learning (DFL)~\cite{shammarSwarmLearningSurvey2025} --- is even simpler in this sense, as it does not have a global model. The updates and aggregations are all taken care by the local models themselves. \cite{hegedusDecentralizedLearningWorks2021b}
 
-Similar to gossip learning is \emph{swarm learning}. The main difference is its use of blockchain peer-to-peer communication that is configured between the local models. This enables swarm learning to be a very related solution, with even better potential privacy and fault tolerance (because there is no single point of failure like the global model server)~\cite{shammarSwarmLearningSurvey2025}.
+Similar to gossip learning is \emph{swarm learning}. The main difference is its use of blockchain peer-to-peer communication that is configured between the local models. This enables swarm learning to be a very related solution, with even better potential privacy and fault tolerance (because there is no single point of failure like the global model server). \cite{shammarSwarmLearningSurvey2025}
+
+% Can existing digital solutions be (partially) reused? \label{q} \newline % v1.0.0
+From the three main decentralized learning alternatives, swarm learning would be the most advanced and related proof of concept to be developed, and definitely long away from the MVP. Fog computing is too extensive and our aim is more to increase privacy than to reduce network traffic.
 
 \subsubsection{Privacy}
 
-In general, \emph{homomorphic encryption} creates a possibility to make operations on encrypted data, without ever decrypting it. This can be applied both to normal and federated machine learning, although it is rather an addon than a replacement for the latter. The challenges include computational overhead and lack of support for some operations, thus finding a balance between privacy and performance is an important question. \cite{hallajiDecentralizedFederatedLearning2024, marquesTrainingMachineLearning2026} % TODO: everything is an addon rather than a replacement.
+In general, \emph{homomorphic encryption} creates a possibility to make operations on encrypted data, without ever decrypting it. This can be applied both to normal and federated machine learning, although it is rather an addon than a replacement for the latter. The challenges include computational overhead and lack of support for some operations, thus finding a balance between privacy and performance is an important question. \cite{hallajiDecentralizedFederatedLearning2024, marquesTrainingMachineLearning2026}
 
 \emph{Secure multiparty computation} allows to split private data from many participants, share it in this split form, and let any participant compute (public) functions, such as average and maximum without knowing any other participants' private data~\cite{evansPragmaticIntroductionSecure}. In federated learning, sharing weights with the central server still brings up some privacy concerns that can be handled by applying secure multiparty computation~\cite{mugunthanSMPAISecureMultiParty}. This adds some computation cost, along with even more communication overhead. \cite{hallajiDecentralizedFederatedLearning2024}
 
 \emph{Differential privacy} introduces random noise to private data while still maintaining its statistical properties~\cite{dankarPracticingDifferentialPrivacy2013}. This means that individual values like age are uninterpretable for any middleman between global and local models, thus guarding the system from inference and poisoning attacks. For example, inference attack would mean that a middleman can infer whether a person has a certain disease from the outputs of the global model~\cite{wuInferenceAttacksTaxonomy2024}; data poisoning attack would mean that a middleman intercepts and modifies the weights sent to the global or local model, making the predictions of the model less accurate or corrupted. \cite{gabrielliSurveyDecentralizedFederated2023a}
 
 % Can existing digital solutions be (partially) reused? \label{q} \newline % v1.0.0
+All privacy alternatives mentioned above are strongly related, but optional for the scope of this work. They clearly point out main weak parts of the federated learning which have to be kept in mind in phases later on.
+
 
 
 
