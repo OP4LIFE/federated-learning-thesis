@@ -21,6 +21,24 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{EEarly}
+\BIBentryALTinterwordspacing
+{{eEarly}}. 8ra. [Online]. Available:
+  \url{https://www.8ra.com/projects/eearly/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{FederatedLearning2026}
+\BIBentryALTinterwordspacing
+``Federated learning.'' [Online]. Available:
+  \url{https://en.wikipedia.org/w/index.php?title=Federated_learning&oldid=1351323125}
+\BIBentrySTDinterwordspacing
+
+\bibitem{MoSCoWMethod2026}
+\BIBentryALTinterwordspacing
+``{{MoSCoW}} method.'' [Online]. Available:
+  \url{https://en.wikipedia.org/w/index.php?title=MoSCoW_method&oldid=1332761640}
+\BIBentrySTDinterwordspacing
+
 \bibitem{FederatedLearningCollaborativea}
 \BIBentryALTinterwordspacing
 Federated {{Learning}}: {{Collaborative Machine Learning}} without
@@ -95,5 +113,23 @@ D.~Evans, V.~Kolesnikov, and M.~Rosulek, ``A {{Pragmatic Introduction}} to
 \bibitem{mugunthanSMPAISecureMultiParty}
 V.~Mugunthan, A.~Polychroniadou, D.~Byrd, and T.~H. Balch, ``{{SMPAI}}:
   {{Secure Multi-Party Computation}} for {{Federated Learning}}.''
+
+\bibitem{dankarPracticingDifferentialPrivacy2013}
+F.~K. Dankar and K.~E. Emam, ``Practicing {{Differential Privacy}} in {{Health
+  Care}}: {{A Review}}.''
+
+\bibitem{wuInferenceAttacksTaxonomy2024}
+\BIBentryALTinterwordspacing
+F.~Wu, L.~Cui, S.~Yao, and S.~Yu. Inference {{Attacks}}: {{A Taxonomy}},
+  {{Survey}}, and {{Promising Directions}}. [Online]. Available:
+  \url{http://arxiv.org/abs/2406.02027}
+\BIBentrySTDinterwordspacing
+
+\bibitem{gabrielliSurveyDecentralizedFederated2023a}
+\BIBentryALTinterwordspacing
+E.~Gabrielli, A.~Di~Pietro, D.~Fenoglio, G.~Pica, and G.~Tolomei. A {{Survey}}
+  on {{Decentralized Federated Learning}}. [Online]. Available:
+  \url{https://arxiv.org/abs/2308.04604}
+\BIBentrySTDinterwordspacing
 
 \end{thebibliography}

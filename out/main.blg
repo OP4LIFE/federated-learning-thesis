@@ -8,9 +8,10 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: bachelor-work.bib
-Warning--I didn't find a database entry for "EEarly"
-Warning--I didn't find a database entry for "FederatedLearning2026"
-Warning--I didn't find a database entry for "MoSCoWMethod2026"
+Warning--entry type for "FederatedLearning2026" isn't style-file defined
+--line 69 of file bachelor-work.bib
+Warning--entry type for "MoSCoWMethod2026" isn't style-file defined
+--line 328 of file bachelor-work.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -26,47 +27,49 @@ Warning--empty journal in evansPragmaticIntroductionSecure
 Warning--empty year in evansPragmaticIntroductionSecure
 Warning--empty journal in mugunthanSMPAISecureMultiParty
 Warning--empty year in mugunthanSMPAISecureMultiParty
+Warning--empty journal in dankarPracticingDifferentialPrivacy2013
+Warning--empty year in dankarPracticingDifferentialPrivacy2013
 
 Done.
-You've used 11 entries,
+You've used 17 entries,
             4087 wiz_defined-function locations,
-            883 strings with 10737 characters,
-and the built_in function-call counts, 7177 in all, are:
-= -- 445
-> -- 318
+            905 strings with 11652 characters,
+and the built_in function-call counts, 9236 in all, are:
+= -- 573
+> -- 368
 < -- 34
-+ -- 163
-- -- 71
-* -- 362
-:= -- 1027
-add.period$ -- 21
-call.type$ -- 11
-change.case$ -- 11
++ -- 188
+- -- 82
+* -- 434
+:= -- 1359
+add.period$ -- 33
+call.type$ -- 17
+change.case$ -- 17
 chr.to.int$ -- 78
-cite$ -- 23
-duplicate$ -- 510
-empty$ -- 545
-format.name$ -- 78
-if$ -- 1604
+cite$ -- 31
+duplicate$ -- 689
+empty$ -- 755
+format.name$ -- 92
+if$ -- 2062
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 133
-newline$ -- 72
-num.names$ -- 10
-pop$ -- 404
+int.to.str$ -- 17
+missing$ -- 178
+newline$ -- 100
+num.names$ -- 13
+pop$ -- 566
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 487
+skip$ -- 632
 stack$ -- 0
-substring$ -- 188
-swap$ -- 378
+substring$ -- 191
+swap$ -- 468
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 11
-warning$ -- 12
-while$ -- 22
-width$ -- 13
-write$ -- 119
-(There were 15 warnings)
+type$ -- 17
+warning$ -- 14
+while$ -- 25
+width$ -- 19
+write$ -- 168
+(There were 16 warnings)

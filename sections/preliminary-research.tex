@@ -26,7 +26,7 @@ During COVID-19 pandemic, researchers all over the world have established connec
 
 \subsection{Related solutions} % v1.0.0
 
-%Are there already similar digital solutions or tools that address this? \label{q} \newline % v1.0.0
+% Are there already similar digital solutions or tools that address this? \label{q} \newline % v1.0.0
 Main characteristics of federative learning described in section~\ref{sec:federative-learning} are decentralized learning and privacy; I use this two for finding related solutions below.
 
 \subsubsection{Decentralized Learning}
@@ -37,14 +37,13 @@ Being a decentralized technique, federated learning still has a central, global 
 
 Similar to gossip learning is \emph{swarm learning}. The main difference is its use of blockchain peer-to-peer communication that is configured between the local models. This enables swarm learning to be a very related solution, with even better potential privacy and fault tolerance (because there is no single point of failure like the global model server)~\cite{shammarSwarmLearningSurvey2025}.
 
-%TODO remove: Challenges: https://arxiv.org/pdf/2308.04604
 \subsubsection{Privacy}
 
 In general, \emph{homomorphic encryption} creates a possibility to make operations on encrypted data, without ever decrypting it. This can be applied both to normal and federated machine learning, although it is rather an addon than a replacement for the latter. The challenges include computational overhead and lack of support for some operations, thus finding a balance between privacy and performance is an important question. \cite{hallajiDecentralizedFederatedLearning2024, marquesTrainingMachineLearning2026} % TODO: everything is an addon rather than a replacement.
 
 \emph{Secure multiparty computation} allows to split private data from many participants, share it in this split form, and let any participant compute (public) functions, such as average and maximum without knowing any other participants' private data~\cite{evansPragmaticIntroductionSecure}. In federated learning, sharing weights with the central server still brings up some privacy concerns that can be handled by applying secure multiparty computation~\cite{mugunthanSMPAISecureMultiParty}. This adds some computation cost, along with even more communication overhead. \cite{hallajiDecentralizedFederatedLearning2024}
 
-\emph{Differential privacy}.
+\emph{Differential privacy} introduces random noise to private data while still maintaining its statistical properties~\cite{dankarPracticingDifferentialPrivacy2013}. This means that individual values like age are uninterpretable for any middleman between global and local models, thus guarding the system from inference and poisoning attacks. For example, inference attack would mean that a middleman can infer whether a person has a certain disease from the outputs of the global model~\cite{wuInferenceAttacksTaxonomy2024}; data poisoning attack would mean that a middleman intercepts and modifies the weights sent to the global or local model, making the predictions of the model less accurate or corrupted. \cite{gabrielliSurveyDecentralizedFederated2023a}
 
 % Can existing digital solutions be (partially) reused? \label{q} \newline % v1.0.0
 
