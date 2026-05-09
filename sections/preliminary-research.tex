@@ -37,15 +37,19 @@ Being a decentralized technique, federated learning still has a central, global 
 
 Similar to gossip learning is \emph{swarm learning}. The main difference is its use of blockchain peer-to-peer communication that is configured between the local models. This enables swarm learning to be a very related solution, with even better potential privacy and fault tolerance (because there is no single point of failure like the global model server)~\cite{shammarSwarmLearningSurvey2025}.
 
-
-%Challenges: https://arxiv.org/pdf/2308.04604
+%TODO remove: Challenges: https://arxiv.org/pdf/2308.04604
 \subsubsection{Privacy}
+
+In general, \emph{homomorphic encryption} creates a possibility to make operations on encrypted data, without ever decrypting it. This can be applied both to normal and federated machine learning, although it is rather an addon than a replacement for the latter. The challenges include computational overhead and lack of support for some operations, thus finding a balance between privacy and performance is an important question. \cite{hallajiDecentralizedFederatedLearning2024, marquesTrainingMachineLearning2026}
+
+Secure Multiparty Computation
+
+
 
 Privacy:
 - Homomorphic Encryption
 - Secure Multiparty Computation (SMPC)
 - Differential Privacy (DP)
-- Federated Learning (FL)
 
 Can existing digital solutions be (partially) reused? \label{q} \newline % v1.0.0
 
