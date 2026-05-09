@@ -16,7 +16,7 @@
 \contentsline {subsubsection}{\numberline {3.3.1}Decentralized Learning}{5}{subsubsection.3.3.1}%
 \contentsline {subsubsection}{\numberline {3.3.2}Privacy}{6}{subsubsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.4}Required technology}{6}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Comparative study}{7}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.5}Comparative study}{6}{subsection.3.5}%
 \contentsline {subsection}{\numberline {3.6}Final selected technology / project tools}{7}{subsection.3.6}%
 \contentsline {subsection}{\numberline {3.7}Choice reflection}{7}{subsection.3.7}%
 \contentsline {section}{\numberline {4}Reflection (16, 1520)}{8}{section.4}%

@@ -21,24 +21,6 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{EEarly}
-\BIBentryALTinterwordspacing
-{{eEarly}}. 8ra. [Online]. Available:
-  \url{https://www.8ra.com/projects/eearly/}
-\BIBentrySTDinterwordspacing
-
-\bibitem{FederatedLearning2026}
-\BIBentryALTinterwordspacing
-``Federated learning.'' [Online]. Available:
-  \url{https://en.wikipedia.org/w/index.php?title=Federated_learning&oldid=1351323125}
-\BIBentrySTDinterwordspacing
-
-\bibitem{MoSCoWMethod2026}
-\BIBentryALTinterwordspacing
-``{{MoSCoW}} method.'' [Online]. Available:
-  \url{https://en.wikipedia.org/w/index.php?title=MoSCoW_method&oldid=1332761640}
-\BIBentrySTDinterwordspacing
-
 \bibitem{FederatedLearningCollaborativea}
 \BIBentryALTinterwordspacing
 Federated {{Learning}}: {{Collaborative Machine Learning}} without
@@ -89,5 +71,29 @@ I.~Hegedűs, G.~Danner, and M.~Jelasity, ``Decentralized learning works: {{An}}
   pp. 109--124. [Online]. Available:
   \url{https://linkinghub.elsevier.com/retrieve/pii/S0743731520303890}
 \BIBentrySTDinterwordspacing
+
+\bibitem{hallajiDecentralizedFederatedLearning2024}
+\BIBentryALTinterwordspacing
+E.~Hallaji, R.~Razavi-Far, M.~Saif, B.~Wang, and Q.~Yang, ``Decentralized
+  {{Federated Learning}}: {{A Survey}} on {{Security}} and {{Privacy}},''
+  vol.~10, no.~2, pp. 194--213. [Online]. Available:
+  \url{http://arxiv.org/abs/2401.17319}
+\BIBentrySTDinterwordspacing
+
+\bibitem{marquesTrainingMachineLearning2026}
+\BIBentryALTinterwordspacing
+A.~Marques, B.~Sá, R.~Botelho, and P.~Pinto. Training {{Machine Learning
+  Models}} on {{Encrypted Data}}: {{A Privacy-Preserving Framework}} using
+  {{Homomorphic Encryption}}. [Online]. Available:
+  \url{http://arxiv.org/abs/2604.23245}
+\BIBentrySTDinterwordspacing
+
+\bibitem{evansPragmaticIntroductionSecure}
+D.~Evans, V.~Kolesnikov, and M.~Rosulek, ``A {{Pragmatic Introduction}} to
+  {{Secure Multi-Party Computation}}.''
+
+\bibitem{mugunthanSMPAISecureMultiParty}
+V.~Mugunthan, A.~Polychroniadou, D.~Byrd, and T.~H. Balch, ``{{SMPAI}}:
+  {{Secure Multi-Party Computation}} for {{Federated Learning}}.''
 
 \end{thebibliography}

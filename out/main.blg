@@ -8,10 +8,9 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: bachelor-work.bib
-Warning--entry type for "FederatedLearning2026" isn't style-file defined
---line 52 of file bachelor-work.bib
-Warning--entry type for "MoSCoWMethod2026" isn't style-file defined
---line 279 of file bachelor-work.bib
+Warning--I didn't find a database entry for "EEarly"
+Warning--I didn't find a database entry for "FederatedLearning2026"
+Warning--I didn't find a database entry for "MoSCoWMethod2026"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -21,47 +20,53 @@ Warning--empty journal in gorrichoMASTERSDEGREETELECOMMUNICATIONS
 Warning--empty year in gorrichoMASTERSDEGREETELECOMMUNICATIONS
 Warning--empty journal in hegedusDecentralizedLearningWorks2021b
 Warning--empty year in hegedusDecentralizedLearningWorks2021b
+Warning--empty journal in hallajiDecentralizedFederatedLearning2024
+Warning--empty year in hallajiDecentralizedFederatedLearning2024
+Warning--empty journal in evansPragmaticIntroductionSecure
+Warning--empty year in evansPragmaticIntroductionSecure
+Warning--empty journal in mugunthanSMPAISecureMultiParty
+Warning--empty year in mugunthanSMPAISecureMultiParty
 
 Done.
-You've used 10 entries,
+You've used 11 entries,
             4087 wiz_defined-function locations,
-            872 strings with 9986 characters,
-and the built_in function-call counts, 5838 in all, are:
-= -- 350
-> -- 245
-< -- 23
-+ -- 128
-- -- 55
-* -- 275
-:= -- 841
-add.period$ -- 19
-call.type$ -- 10
-change.case$ -- 10
-chr.to.int$ -- 54
-cite$ -- 16
-duplicate$ -- 422
-empty$ -- 471
-format.name$ -- 58
-if$ -- 1305
+            883 strings with 10737 characters,
+and the built_in function-call counts, 7177 in all, are:
+= -- 445
+> -- 318
+< -- 34
++ -- 163
+- -- 71
+* -- 362
+:= -- 1027
+add.period$ -- 21
+call.type$ -- 11
+change.case$ -- 11
+chr.to.int$ -- 78
+cite$ -- 23
+duplicate$ -- 510
+empty$ -- 545
+format.name$ -- 78
+if$ -- 1604
 int.to.chr$ -- 0
-int.to.str$ -- 10
-missing$ -- 114
-newline$ -- 71
-num.names$ -- 6
-pop$ -- 362
+int.to.str$ -- 11
+missing$ -- 133
+newline$ -- 72
+num.names$ -- 10
+pop$ -- 404
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 398
+skip$ -- 487
 stack$ -- 0
-substring$ -- 131
-swap$ -- 298
-text.length$ -- 5
+substring$ -- 188
+swap$ -- 378
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 10
-warning$ -- 6
-while$ -- 14
-width$ -- 12
-write$ -- 111
-(There were 8 warnings)
+type$ -- 11
+warning$ -- 12
+while$ -- 22
+width$ -- 13
+write$ -- 119
+(There were 15 warnings)

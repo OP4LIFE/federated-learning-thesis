@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.6)  7 MAY 2026 17:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.6)  9 MAY 2026 11:12
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -558,9 +558,6 @@ LaTeX Warning: Label `q' multiply defined.
 
 LaTeX Warning: Label `q' multiply defined.
 
-
-LaTeX Warning: Label `q' multiply defined.
-
 )
 \openout1 = `main.aux'.
 
@@ -587,16 +584,16 @@ LaTeX Font Info:    ... okay on input line 18.
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: letterpaper
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(85.35826pt, 443.57848pt, 85.35826pt)
-* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=443.57848pt
-* \textheight=681.15898pt
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=731.23584pt
 * \oddsidemargin=13.08827pt
 * \evensidemargin=13.08827pt
 * \topmargin=-52.36449pt
@@ -659,7 +656,7 @@ File: ./svg-inkscape/ucll-logo_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/ucll-logo_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/ucll-logo_svg-tex.pdf , page1 used on i
 nput line 56.
-(pdftex.def)             Requested size: 133.07489pt x 50.96564pt.
+(pdftex.def)             Requested size: 128.0387pt x 49.03651pt.
 )) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./svg-inkscape/ucll-logo_s
@@ -676,6 +673,14 @@ been already used, duplicate ignored
                    \relax 
 l.30 \newpage
               [1] (./sections/scope-and-vision.tex
+
+LaTeX Warning: Citation `EEarly' on page 2 undefined on input line 5.
+
+
+LaTeX Warning: Citation `FederatedLearning2026' on page 2 undefined on input li
+ne 15.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
@@ -694,6 +699,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
+
+
+LaTeX Warning: Citation `MoSCoWMethod2026' on page 3 undefined on input line 19
+.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--25
@@ -716,7 +725,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
  []
 
 [3]) [4] (./sections/preliminary-research.tex [5]
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
@@ -726,32 +740,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
@@ -812,7 +816,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
  []
 
 
-Overfull \hbox (5.83905pt too wide) in paragraph at lines 10--11
+Overfull \hbox (22.62617pt too wide) in paragraph at lines 10--11
 []\OT1/cmr/m/n/10 What im-pact do you think the re-search or de-vel-oped tool h
 as on so-ci-ety (econ-omy/policy/education)?
  []
@@ -820,6 +824,12 @@ as on so-ci-ety (econ-omy/policy/education)?
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
+ []
+
+
+Overfull \hbox (16.59836pt too wide) in paragraph at lines 12--13
+[]\OT1/cmr/m/n/10 What im-pact do you think the re-search or de-vel-oped tool h
+as on the cli-mate (en-ergy/sustainability)?
  []
 
 
@@ -885,13 +895,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 ) [12]
 (/home/veselm/OneDrive/Documentss/projekti/diplomsko_delo/repositories/bachelor
 _work/out/main.bbl
-Underfull \hbox (badness 2126) in paragraph at lines 44--48
+Underfull \hbox (badness 1400) in paragraph at lines 26--30
 []\OT1/cmr/m/n/10 Federated Learn-ing: Col-lab-o-ra-tive Ma-chine Learn-ing wit
 h-out Cen-
  []
 
 
-Underfull \hbox (badness 5403) in paragraph at lines 44--48
+Underfull \hbox (badness 3525) in paragraph at lines 26--30
 \OT1/cmr/m/n/10 tral-ized Train-ing. [On-line]. Avail-able: [][]$https : / / re
 search . google / blog /
  []
@@ -905,16 +915,19 @@ L3 programming layer <2024-01-22>
  ***********
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: FB9B1B4DEF1A9A4DA81EC0629067C24B;5510.
  ) 
 Here is how much of TeX's memory you used:
- 13356 strings out of 474222
- 227206 string characters out of 5748734
+ 13358 strings out of 474222
+ 227391 string characters out of 5748734
  1937975 words of memory out of 5000000
- 35300 multiletter control sequences out of 15000+600000
+ 35301 multiletter control sequences out of 15000+600000
  561639 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,7n,93p,860b,515s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -926,10 +939,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmti12.pfb>
 Output written on /home/veselm/OneDrive/Documentss/projekti/diplomsko_delo/repo
-sitories/bachelor_work/out/main.pdf (14 pages, 153178 bytes).
+sitories/bachelor_work/out/main.pdf (14 pages, 155833 bytes).
 PDF statistics:
  346 PDF objects out of 1000 (max. 8388607)
  310 compressed objects within 4 object streams
- 67 named destinations out of 1000 (max. 500000)
+ 68 named destinations out of 1000 (max. 500000)
  303 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -40,22 +40,14 @@ Similar to gossip learning is \emph{swarm learning}. The main difference is its 
 %TODO remove: Challenges: https://arxiv.org/pdf/2308.04604
 \subsubsection{Privacy}
 
-In general, \emph{homomorphic encryption} creates a possibility to make operations on encrypted data, without ever decrypting it. This can be applied both to normal and federated machine learning, although it is rather an addon than a replacement for the latter. The challenges include computational overhead and lack of support for some operations, thus finding a balance between privacy and performance is an important question. \cite{hallajiDecentralizedFederatedLearning2024, marquesTrainingMachineLearning2026}
+In general, \emph{homomorphic encryption} creates a possibility to make operations on encrypted data, without ever decrypting it. This can be applied both to normal and federated machine learning, although it is rather an addon than a replacement for the latter. The challenges include computational overhead and lack of support for some operations, thus finding a balance between privacy and performance is an important question. \cite{hallajiDecentralizedFederatedLearning2024, marquesTrainingMachineLearning2026} % TODO: everything is an addon rather than a replacement.
 
-Secure Multiparty Computation
+\emph{Secure multiparty computation} allows to split private data from many participants, share it in this split form, and let any participant compute (public) functions, such as average and maximum without knowing any other participants' private data~\cite{evansPragmaticIntroductionSecure}. In federated learning, sharing weights with the central server still brings up some privacy concerns that can be handled by applying secure multiparty computation~\cite{mugunthanSMPAISecureMultiParty}. This adds some computation cost, along with even more communication overhead. \cite{hallajiDecentralizedFederatedLearning2024}
 
+\emph{Differential privacy}.
 
+% Can existing digital solutions be (partially) reused? \label{q} \newline % v1.0.0
 
-Privacy:
-- Homomorphic Encryption
-- Secure Multiparty Computation (SMPC)
-- Differential Privacy (DP)
-
-Can existing digital solutions be (partially) reused? \label{q} \newline % v1.0.0
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi pretium tellus duis convallis tempus leo eu aenean sed diam urna tempor pulvinar vivamus fringilla lacus nec metus bibendum egestas iaculis massa nisl malesuada lacinia integer nunc posuere ut hendrerit semper vel class aptent taciti sociosqu ad litora torquent per conubia nostra inceptos himenaeos orci varius natoque penatibus et magnis dis parturient montes nascetur ridiculus mus donec rhoncus eros lobortis nulla molestie mattis scelerisque maximus eget fermentum odio phasellus non purus est efficitur laoreet mauris pharetra vestibulum fusce dictum risus.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi pretium tellus duis convallis tempus leo eu aenean sed diam urna tempor pulvinar vivamus fringilla lacus nec metus bibendum egestas iaculis massa nisl malesuada lacinia integer nunc posuere ut hendrerit semper vel class aptent taciti sociosqu ad litora torquent per conubia nostra inceptos himenaeos orci varius natoque penatibus et magnis dis parturient montes nascetur ridiculus mus donec rhoncus eros lobortis nulla molestie mattis scelerisque maximus eget fermentum odio phasellus non purus est efficitur laoreet mauris pharetra vestibulum fusce dictum risus.
 
 
 \subsection{Required technology} % v1.0.0
