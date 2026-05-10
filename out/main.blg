@@ -1,75 +1,15 @@
-This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: main.aux
-The style file: IEEEtran.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: bachelor-work.bib
-Warning--entry type for "FederatedLearning2026" isn't style-file defined
---line 69 of file bachelor-work.bib
-Warning--entry type for "MoSCoWMethod2026" isn't style-file defined
---line 328 of file bachelor-work.bib
--- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
--- http://www.michaelshell.org/tex/ieeetran/bibtex/
--- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty journal in baiAdvancingCOVID19Diagnosis2021
-Warning--empty year in baiAdvancingCOVID19Diagnosis2021
-Warning--empty journal in gorrichoMASTERSDEGREETELECOMMUNICATIONS
-Warning--empty year in gorrichoMASTERSDEGREETELECOMMUNICATIONS
-Warning--empty journal in hegedusDecentralizedLearningWorks2021b
-Warning--empty year in hegedusDecentralizedLearningWorks2021b
-Warning--empty journal in hallajiDecentralizedFederatedLearning2024
-Warning--empty year in hallajiDecentralizedFederatedLearning2024
-Warning--empty journal in evansPragmaticIntroductionSecure
-Warning--empty year in evansPragmaticIntroductionSecure
-Warning--empty journal in mugunthanSMPAISecureMultiParty
-Warning--empty year in mugunthanSMPAISecureMultiParty
-Warning--empty journal in dankarPracticingDifferentialPrivacy2013
-Warning--empty year in dankarPracticingDifferentialPrivacy2013
-
-Done.
-You've used 17 entries,
-            4087 wiz_defined-function locations,
-            905 strings with 11652 characters,
-and the built_in function-call counts, 9236 in all, are:
-= -- 573
-> -- 368
-< -- 34
-+ -- 188
-- -- 82
-* -- 434
-:= -- 1359
-add.period$ -- 33
-call.type$ -- 17
-change.case$ -- 17
-chr.to.int$ -- 78
-cite$ -- 31
-duplicate$ -- 689
-empty$ -- 755
-format.name$ -- 92
-if$ -- 2062
-int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 178
-newline$ -- 100
-num.names$ -- 13
-pop$ -- 566
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 2
-skip$ -- 632
-stack$ -- 0
-substring$ -- 191
-swap$ -- 468
-text.length$ -- 8
-text.prefix$ -- 0
-top$ -- 5
-type$ -- 17
-warning$ -- 14
-while$ -- 25
-width$ -- 19
-write$ -- 168
-(There were 16 warnings)
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[134] biber:340> INFO - === Sun May 10, 2026, 10:12:48
+[159] Biber.pm:419> INFO - Reading 'main.bcf'
+[269] Biber.pm:979> INFO - Found 17 citekeys in bib section 0
+[291] Biber.pm:4419> INFO - Processing section 0
+[309] Biber.pm:4610> INFO - Looking for bibtex file 'bachelor-work.bib' for section 0
+[322] bibtex.pm:1713> INFO - LaTeX decoding ...
+[435] bibtex.pm:1519> INFO - Found BibTeX data source '/home/veselm/OneDrive/Documentss/projekti/diplomsko_delo/repositories/bachelor_work/bachelor-work.bib'
+[754] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[755] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[755] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[755] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[781] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[799] bbl.pm:763> INFO - Output to main.bbl

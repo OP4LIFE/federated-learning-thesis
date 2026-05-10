@@ -13,6 +13,8 @@
 \usepackage{graphicx}
 \usepackage{svg}
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage[backend=biber, style=ieee]{biblatex}
+\addbibresource{bachelor-work.bib}
 
 
 \begin{document}
@@ -61,8 +63,10 @@
 \input{sections/appendices}
 \newpage
 
-\bibliographystyle{IEEEtran}
-\bibliography{bachelor-work}
+%\bibliographystyle{IEEEtran}
+%\bibliography{bachelor-work}
+
+\printbibliography
 
 
 \end{document}
