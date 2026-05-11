@@ -1092,8 +1092,8 @@
       \strng{authorbibnamehash}{8bcc22d5b7f7c093e3900f468df857bd}
       \strng{authornamehash}{834198eade72c38f2721b1b0c88a047f}
       \strng{authorfullhash}{8bcc22d5b7f7c093e3900f468df857bd}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{24058440}
@@ -1124,6 +1124,79 @@
       \endverb
       \verb{url}
       \verb https://linkinghub.elsevier.com/retrieve/pii/S2405844024141680
+      \endverb
+    \endentry
+    \entry{riedelComparativeAnalysisOpensource2024}{article}{}
+      \name{author}{6}{}{%
+        {{hash=070378739065ef2c561c0dd04f20fed6}{%
+           family={Riedel},
+           familyi={R\bibinitperiod},
+           given={Pascal},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c4b00118bf6e644e81d8e428786cf571}{%
+           family={Schick},
+           familyi={S\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=da092e36a175535112011f6afe531b78}{%
+           family={Von\bibnamedelima Schwerin},
+           familyi={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Reinhold},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8eaa44e89e43f01f5d0fd74865b3bb51}{%
+           family={Reichert},
+           familyi={R\bibinitperiod},
+           given={Manfred},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0a5bfe9ba85373520e33e1a56b22d695}{%
+           family={Schaudt},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9096a0fca45fb6e4ba8a8b76fc9e2e17}{%
+           family={Hafner},
+           familyi={H\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c7bc07aa700bf7d1cacb9405fa3d634}
+      \strng{fullhash}{f0f093bf570da191fb34f3299b6393bf}
+      \strng{bibnamehash}{f0f093bf570da191fb34f3299b6393bf}
+      \strng{authorbibnamehash}{f0f093bf570da191fb34f3299b6393bf}
+      \strng{authornamehash}{4c7bc07aa700bf7d1cacb9405fa3d634}
+      \strng{authorfullhash}{f0f093bf570da191fb34f3299b6393bf}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{While Federated Learning (FL) provides a privacy-preserving approach to analyze sensitive data without centralizing training data, the field lacks an detailed comparison of emerging open-source FL frameworks. Furthermore, there is currently no standardized, weighted evaluation scheme for a fair comparison of FL frameworks that would support the selection of a suitable FL framework. This study addresses these research gaps by conducting a comparative analysis of 15 individual open-source FL frameworks filtered by two selection criteria, using the literature review methodology proposed by Webster and Watson. These framework candidates are compared using a novel scoring schema with 15 qualitative and quantitative evaluation criteria, focusing on features, interoperability, and user friendliness. The evaluation results show that the FL framework Flower outperforms its peers with an overall score of 84.75\%, while Fedlearner lags behind with a total score of 24.75\%. The proposed comparison suite offers valuable initial guidance for practitioners and researchers in selecting an FL framework for the design and development of FL-driven systems. In addition, the FL framework comparison suite is designed to be adaptable and extendable accommodating the inclusion of new FL frameworks and evolving requirements.}
+      \field{issn}{1868-8071, 1868-808X}
+      \field{journaltitle}{International Journal of Machine Learning and Cybernetics}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{11}
+      \field{shortjournal}{Int. J. Mach. Learn. \& Cyber.}
+      \field{title}{Comparative Analysis of Open-Source Federated Learning Frameworks - a Literature-Based Survey and Review}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{15}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{5257\bibrangedash 5278}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1007/s13042-024-02234-z
+      \endverb
+      \verb{file}
+      \verb /home/veselm/Zotero/storage/56TTNJE5/Riedel et al. - 2024 - Comparative analysis of open-source federated learning frameworks - a literature-based survey and re.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/s13042-024-02234-z
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s13042-024-02234-z
       \endverb
     \endentry
     \entry{mehdiComprehensiveReviewOpenSource2025}{article}{}
@@ -1217,6 +1290,301 @@
       \endverb
       \verb{url}
       \verb https://www.rajeshkumar.xyz/blog/federated-learning-platforms/
+      \endverb
+    \endentry
+    \entry{guptaBenchmarkingFederatedLearning}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a145c7b807e99268a86cc29955b89c8a}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Riya},
+           giveni={R\bibinitperiod}}}%
+        {{hash=985ef8ebcaee5557a512cd07d37fd453}{%
+           family={Nalawade},
+           familyi={N\bibinitperiod},
+           given={Sahil},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2cc76b44640e57d55f23022936408080}{%
+           family={Chowdhury},
+           familyi={C\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee3a73d4fb82db46a7f7b4791941ae75}
+      \strng{fullhash}{ee3a73d4fb82db46a7f7b4791941ae75}
+      \strng{bibnamehash}{ee3a73d4fb82db46a7f7b4791941ae75}
+      \strng{authorbibnamehash}{ee3a73d4fb82db46a7f7b4791941ae75}
+      \strng{authornamehash}{ee3a73d4fb82db46a7f7b4791941ae75}
+      \strng{authorfullhash}{ee3a73d4fb82db46a7f7b4791941ae75}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Federated Learning (FL) has emerged as a transformative paradigm in medical AI, enabling collaborative model training across institutions without direct data sharing. This study benchmarks three prominent FL frameworks NVIDIA FLARE, Flower, and Owkin Substra to evaluate their suitability for medical imaging applications in real-world settings. Using the PathMNIST dataset, we assess model performance, convergence efficiency, communication overhead, scalability, and developer experience. Results indicate that NVIDIA FLARE offers superior production scalability, Flower provides flexibility for prototyping and academic research, and Owkin Substra demonstrates exceptional privacy and compliance features. Each framework exhibits strengths optimized for distinct use cases, emphasizing their relevance to practical deployment in healthcare environments.}
+      \field{langid}{english}
+      \field{title}{Benchmarking {{Federated Learning Frameworks}} for {{Medical Imaging Deployment}}: {{A Comparative Study}} of {{NVIDIA FLARE}}, {{Flower}}, and {{Owkin Substra}}}
+      \verb{file}
+      \verb /home/veselm/Zotero/storage/4JGGFVI8/Gupta et al. - Benchmarking Federated Learning Frameworks for Medical Imaging Deployment A Comparative Study of NV.pdf
+      \endverb
+    \endentry
+    \entry{cotocusTop10Federated2026}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0367d3a3fb952845d019fcfc3f3b77b2}{%
+           family={{cotocus}},
+           familyi={c\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Cotocus}%
+      }
+      \strng{namehash}{0367d3a3fb952845d019fcfc3f3b77b2}
+      \strng{fullhash}{0367d3a3fb952845d019fcfc3f3b77b2}
+      \strng{bibnamehash}{0367d3a3fb952845d019fcfc3f3b77b2}
+      \strng{authorbibnamehash}{0367d3a3fb952845d019fcfc3f3b77b2}
+      \strng{authornamehash}{0367d3a3fb952845d019fcfc3f3b77b2}
+      \strng{authorfullhash}{0367d3a3fb952845d019fcfc3f3b77b2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Introduction Federated Learning Platforms are special types of software that allow people to train artificial intelligence models without having to share their private data. In [...]}
+      \field{day}{22}
+      \field{hour}{5}
+      \field{langid}{american}
+      \field{minute}{41}
+      \field{month}{1}
+      \field{second}{35}
+      \field{shorttitle}{Top 10 {{Federated Learning Platforms}}}
+      \field{timezone}{Z}
+      \field{title}{Top 10 {{Federated Learning Platforms}}: {{Features}}, {{Pros}}, {{Cons}} \& {{Comparison}}}
+      \field{urlday}{10}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/veselm/Zotero/storage/F9F8HKZM/top-10-federated-learning-platforms-features-pros-cons-comparison.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cotocus.com/blog/top-10-federated-learning-platforms-features-pros-cons-comparison/
+      \endverb
+      \verb{url}
+      \verb https://www.cotocus.com/blog/top-10-federated-learning-platforms-features-pros-cons-comparison/
+      \endverb
+    \endentry
+    \entry{rothSuperchargingFederatedLearning2024}{online}{}
+      \name{author}{16}{}{%
+        {{hash=04c08832941bceae0bfee57a4113dd33}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={Holger\bibnamedelima R.},
+           giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=7bf2d912026dfd8e881264db28949c3b}{%
+           family={Beutel},
+           familyi={B\bibinitperiod},
+           given={Daniel\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=568c91fef7be054e921b14e31ce2732c}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=db2a01f197638cafc89e56168b062bb8}{%
+           family={Marques},
+           familyi={M\bibinitperiod},
+           given={Javier\bibnamedelima Fernandez},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=29f27605f4680cbd39d75d3a65ab557c}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Heng},
+           giveni={H\bibinitperiod}}}%
+        {{hash=dc454cb8bed4d8ce34d12933f698fc74}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Chester},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f6862918de72ae33b5ff43ff16164254}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhihong},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=68642b8ac7716aca863045413c39687a}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Yuhong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=43047bd7c203972c7ee669aeaed965d0}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Sean},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ba092f0aca4ee5d510274c706a8f336a}{%
+           family={Isaac},
+           familyi={I\bibinitperiod}}}%
+        {{hash=2422f0f0806e2d3daff5fcd971be38f1}{%
+           family={Yang},
+           familyi={Y\bibinitperiod}}}%
+        {{hash=0fa9d7041418a75d4d24d5fd96d014ed}{%
+           family={Hsieh},
+           familyi={H\bibinitperiod},
+           given={Yuan-Ting},
+           giveni={Y\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=1ee2882bc84b45bc87f4adf71cfc32c0}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Ziyue},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=40c221ac11c898cb10013b2468fc229b}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Daguang},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0178a10937afeee8b3947b80841a4c65}{%
+           family={Lane},
+           familyi={L\bibinitperiod},
+           given={Nicholas\bibnamedelima D.},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4b633bc43ae852d2f51a00e4555500e1}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2b5f1d6cdca3e7935056c8c8e36d3eb}
+      \strng{fullhash}{17b926920c0e8c0779b099966a9a8e2b}
+      \strng{bibnamehash}{c2b5f1d6cdca3e7935056c8c8e36d3eb}
+      \strng{authorbibnamehash}{c2b5f1d6cdca3e7935056c8c8e36d3eb}
+      \strng{authornamehash}{c2b5f1d6cdca3e7935056c8c8e36d3eb}
+      \strng{authorfullhash}{17b926920c0e8c0779b099966a9a8e2b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Several open-source systems, such as Flower and NVIDIA FLARE, have been developed in recent years while focusing on different aspects of federated learning (FL). Flower is dedicated to implementing a cohesive approach to FL, analytics, and evaluation. Over time, Flower has cultivated extensive strategies and algorithms tailored for FL application development, fostering a vibrant FL community in research and industry. Conversely, FLARE has prioritized the creation of an enterprise-ready, resilient runtime environment explicitly designed for FL applications in production environments. In this paper, we describe our initial integration of both frameworks and show how they can work together to supercharge the FL ecosystem as a whole. Through the seamless integration of Flower and FLARE, applications crafted within the Flower framework can effortlessly operate within the FLARE runtime environment without necessitating any modifications. This initial integration streamlines the process, eliminating complexities and ensuring smooth interoperability between the two platforms, thus enhancing the overall efficiency and accessibility of FL applications.}
+      \field{day}{22}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arXiv}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{pubstate}{prepublished}
+      \field{title}{Supercharging {{Federated Learning}} with {{Flower}} and {{NVIDIA FLARE}}}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2407.00031
+      \endverb
+      \verb{eprint}
+      \verb 2407.00031
+      \endverb
+      \verb{file}
+      \verb /home/veselm/Zotero/storage/LVWABVCB/Roth et al. - 2024 - Supercharging Federated Learning with Flower and NVIDIA FLARE.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2407.00031
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2407.00031
+      \endverb
+      \keyw{Computer Science - Distributed Parallel and Cluster Computing,Computer Science - Software Engineering}
+    \endentry
+    \entry{saysSuperchargingFederatedLearning2025}{online}{}
+      \name{author}{1}{}{%
+        {{hash=24962675309b279bd6a5d8a3879a32e1}{%
+           family={Says},
+           familyi={S\bibinitperiod},
+           given={Hroth3hm8y},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {NVIDIA Technical Blog}%
+      }
+      \strng{namehash}{24962675309b279bd6a5d8a3879a32e1}
+      \strng{fullhash}{24962675309b279bd6a5d8a3879a32e1}
+      \strng{bibnamehash}{24962675309b279bd6a5d8a3879a32e1}
+      \strng{authorbibnamehash}{24962675309b279bd6a5d8a3879a32e1}
+      \strng{authornamehash}{24962675309b279bd6a5d8a3879a32e1}
+      \strng{authorfullhash}{24962675309b279bd6a5d8a3879a32e1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In recent years, open-source systems like Flower and NVIDIA FLARE have emerged as pivotal tools in the federated learning (FL) landscape, each with its unique focus. Flower champions a unified…}
+      \field{day}{24}
+      \field{hour}{16}
+      \field{langid}{american}
+      \field{minute}{0}
+      \field{month}{3}
+      \field{second}{0}
+      \field{timezone}{Z}
+      \field{title}{Supercharging the {{Federated Learning Ecosystem}} by {{Integrating Flower}} and {{NVIDIA FLARE}}}
+      \field{urlday}{10}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/veselm/Zotero/storage/NJK8T5PV/supercharging-the-federated-learning-ecosystem-by-integrating-flower-and-nvidia-flare.html
+      \endverb
+      \verb{urlraw}
+      \verb https://developer.nvidia.com/blog/supercharging-the-federated-learning-ecosystem-by-integrating-flower-and-nvidia-flare/
+      \endverb
+      \verb{url}
+      \verb https://developer.nvidia.com/blog/supercharging-the-federated-learning-ecosystem-by-integrating-flower-and-nvidia-flare/
+      \endverb
+    \endentry
+    \entry{laneAnnouncingNVIDIAFlower2024a}{online}{}
+      \name{author}{3}{}{%
+        {{hash=bcd5351133a9e7632ca75359f71df9a4}{%
+           family={Lane},
+           familyi={L\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=930b2a18b29ddf8edf110e14b3428bfc}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod}}}%
+        {{hash=71ed1200df7c797ea221d357c96a35a8}{%
+           family={J.\bibnamedelimi Beutel},
+           familyi={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{b2f0e7f10c965cac231210b0c46bd754}
+      \strng{fullhash}{b2f0e7f10c965cac231210b0c46bd754}
+      \strng{bibnamehash}{b2f0e7f10c965cac231210b0c46bd754}
+      \strng{authorbibnamehash}{b2f0e7f10c965cac231210b0c46bd754}
+      \strng{authornamehash}{b2f0e7f10c965cac231210b0c46bd754}
+      \strng{authorfullhash}{b2f0e7f10c965cac231210b0c46bd754}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{NVIDIA and Flower Collaborate to Improve Federated Learning Development for Researchers, Data Scientists and AI Developers.}
+      \field{day}{15}
+      \field{langid}{british}
+      \field{month}{3}
+      \field{title}{Announcing {{NVIDIA}} and {{Flower Collaboration}}}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/veselm/Zotero/storage/65F24SHY/2024-03-15-announcing-nvidia-and-flower-collaboration.html
+      \endverb
+      \verb{urlraw}
+      \verb https://flower.ai/blog/2024-03-15-announcing-nvidia-and-flower-collaboration/
+      \endverb
+      \verb{url}
+      \verb https://flower.ai/blog/2024-03-15-announcing-nvidia-and-flower-collaboration/
       \endverb
     \endentry
   \enddatalist

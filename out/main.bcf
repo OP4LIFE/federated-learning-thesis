@@ -2387,15 +2387,31 @@
     <bcf:citekey order="17" intorder="1">wuInferenceAttacksTaxonomy2024</bcf:citekey>
     <bcf:citekey order="18" intorder="1">gabrielliSurveyDecentralizedFederated2023a</bcf:citekey>
     <bcf:citekey order="19" intorder="1">braungardtFlowerPySyftCo2024</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">yurdemFederatedLearningOverview2024</bcf:citekey>
+    <bcf:citekey order="19" intorder="2">yurdemFederatedLearningOverview2024</bcf:citekey>
+    <bcf:citekey order="19" intorder="3">riedelComparativeAnalysisOpensource2024</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">mehdiComprehensiveReviewOpenSource2025</bcf:citekey>
+    <bcf:citekey order="20" intorder="2">yurdemFederatedLearningOverview2024</bcf:citekey>
+    <bcf:citekey order="20" intorder="3">rajeshkumarTop10Federated2026</bcf:citekey>
+    <bcf:citekey order="20" intorder="4">guptaBenchmarkingFederatedLearning</bcf:citekey>
     <bcf:citekey order="21" intorder="1">mehdiComprehensiveReviewOpenSource2025</bcf:citekey>
     <bcf:citekey order="21" intorder="2">yurdemFederatedLearningOverview2024</bcf:citekey>
-    <bcf:citekey order="21" intorder="3">rajeshkumarTop10Federated2026</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">mehdiComprehensiveReviewOpenSource2025</bcf:citekey>
-    <bcf:citekey order="22" intorder="2">yurdemFederatedLearningOverview2024</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">rajeshkumarTop10Federated2026</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">mehdiComprehensiveReviewOpenSource2025</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">rajeshkumarTop10Federated2026</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">rajeshkumarTop10Federated2026</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">mehdiComprehensiveReviewOpenSource2025</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">rajeshkumarTop10Federated2026</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">mehdiComprehensiveReviewOpenSource2025</bcf:citekey>
+    <bcf:citekey order="25" intorder="2">cotocusTop10Federated2026</bcf:citekey>
+    <bcf:citekey order="25" intorder="3">rajeshkumarTop10Federated2026</bcf:citekey>
+    <bcf:citekey order="25" intorder="4">guptaBenchmarkingFederatedLearning</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">cotocusTop10Federated2026</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">braungardtFlowerPySyftCo2024</bcf:citekey>
+    <bcf:citekey order="27" intorder="2">mehdiComprehensiveReviewOpenSource2025</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">rajeshkumarTop10Federated2026</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">mehdiComprehensiveReviewOpenSource2025</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">mehdiComprehensiveReviewOpenSource2025</bcf:citekey>
+    <bcf:citekey order="30" intorder="2">yurdemFederatedLearningOverview2024</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">rothSuperchargingFederatedLearning2024</bcf:citekey>
+    <bcf:citekey order="31" intorder="2">saysSuperchargingFederatedLearning2025</bcf:citekey>
+    <bcf:citekey order="31" intorder="3">laneAnnouncingNVIDIAFlower2024a</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
