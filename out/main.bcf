@@ -2386,6 +2386,16 @@
     <bcf:citekey order="16" intorder="1">dankarPracticingDifferentialPrivacy2013</bcf:citekey>
     <bcf:citekey order="17" intorder="1">wuInferenceAttacksTaxonomy2024</bcf:citekey>
     <bcf:citekey order="18" intorder="1">gabrielliSurveyDecentralizedFederated2023a</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">braungardtFlowerPySyftCo2024</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">yurdemFederatedLearningOverview2024</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">mehdiComprehensiveReviewOpenSource2025</bcf:citekey>
+    <bcf:citekey order="21" intorder="2">yurdemFederatedLearningOverview2024</bcf:citekey>
+    <bcf:citekey order="21" intorder="3">rajeshkumarTop10Federated2026</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">mehdiComprehensiveReviewOpenSource2025</bcf:citekey>
+    <bcf:citekey order="22" intorder="2">yurdemFederatedLearningOverview2024</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">rajeshkumarTop10Federated2026</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">mehdiComprehensiveReviewOpenSource2025</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">rajeshkumarTop10Federated2026</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

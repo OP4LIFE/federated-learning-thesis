@@ -1013,6 +1013,212 @@
       \endverb
       \keyw{Cryptography and Security (cs.CR),Distributed Parallel and Cluster Computing (cs.DC),FOS: Computer and information sciences,Machine Learning (cs.LG)}
     \endentry
+    \entry{braungardtFlowerPySyftCo2024}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a56cca89c01dd44e3b64457039fcd278}{%
+           family={Braungardt},
+           familyi={B\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Medium}%
+      }
+      \strng{namehash}{a56cca89c01dd44e3b64457039fcd278}
+      \strng{fullhash}{a56cca89c01dd44e3b64457039fcd278}
+      \strng{bibnamehash}{a56cca89c01dd44e3b64457039fcd278}
+      \strng{authorbibnamehash}{a56cca89c01dd44e3b64457039fcd278}
+      \strng{authornamehash}{a56cca89c01dd44e3b64457039fcd278}
+      \strng{authorfullhash}{a56cca89c01dd44e3b64457039fcd278}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A Comprehensive Comparison of Federated Learning Frameworks for 2023}
+      \field{day}{5}
+      \field{hour}{23}
+      \field{langid}{english}
+      \field{minute}{11}
+      \field{month}{8}
+      \field{second}{1}
+      \field{title}{Flower, {{PySyft}} \& {{Co}}. — {{Federated Learning Frameworks}} in {{Python}}}
+      \field{urlday}{9}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/veselm/Zotero/storage/Y8927LAQ/flower-pysyft-co-federated-learning-frameworks-in-python-b1a8eda68b0d.html
+      \endverb
+      \verb{urlraw}
+      \verb https://medium.com/elca-it/flower-pysyft-co-federated-learning-frameworks-in-python-b1a8eda68b0d
+      \endverb
+      \verb{url}
+      \verb https://medium.com/elca-it/flower-pysyft-co-federated-learning-frameworks-in-python-b1a8eda68b0d
+      \endverb
+    \endentry
+    \entry{yurdemFederatedLearningOverview2024}{article}{}
+      \name{author}{5}{}{%
+        {{hash=cfd35dd7b73cac9bc86da70c7bfb33df}{%
+           family={Yurdem},
+           familyi={Y\bibinitperiod},
+           given={Betul},
+           giveni={B\bibinitperiod}}}%
+        {{hash=11989af89da133f58079a84e9fa27854}{%
+           family={Kuzlu},
+           familyi={K\bibinitperiod},
+           given={Murat},
+           giveni={M\bibinitperiod}}}%
+        {{hash=66f96b43ea1a7a24f965330dce770ba2}{%
+           family={Gullu},
+           familyi={G\bibinitperiod},
+           given={Mehmet\bibnamedelima Kemal},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=a755343671cf27650ca2dc281728d5f0}{%
+           family={Catak},
+           familyi={C\bibinitperiod},
+           given={Ferhat\bibnamedelima Ozgur},
+           giveni={F\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=ae64b75e81825f4d75eeb2ed4ec5de9b}{%
+           family={Tabassum},
+           familyi={T\bibinitperiod},
+           given={Maliha},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{834198eade72c38f2721b1b0c88a047f}
+      \strng{fullhash}{8bcc22d5b7f7c093e3900f468df857bd}
+      \strng{bibnamehash}{8bcc22d5b7f7c093e3900f468df857bd}
+      \strng{authorbibnamehash}{8bcc22d5b7f7c093e3900f468df857bd}
+      \strng{authornamehash}{834198eade72c38f2721b1b0c88a047f}
+      \strng{authorfullhash}{8bcc22d5b7f7c093e3900f468df857bd}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{24058440}
+      \field{journaltitle}{Heliyon}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{19}
+      \field{shortjournal}{Heliyon}
+      \field{shorttitle}{Federated Learning}
+      \field{title}{Federated Learning: {{Overview}}, Strategies, Applications, Tools and Future Directions}
+      \field{urlday}{9}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{10}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{e38137}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.heliyon.2024.e38137
+      \endverb
+      \verb{file}
+      \verb /home/veselm/Zotero/storage/CQF2FCJB/Yurdem et al. - 2024 - Federated learning Overview, strategies, applications, tools and future directions.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2405844024141680
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2405844024141680
+      \endverb
+    \endentry
+    \entry{mehdiComprehensiveReviewOpenSource2025}{article}{}
+      \name{author}{3}{}{%
+        {{hash=dea05f2f66c199bf5eea32a45cf2b968}{%
+           family={Mehdi},
+           familyi={M\bibinitperiod},
+           given={Muntazir},
+           giveni={M\bibinitperiod}}}%
+        {{hash=721a9253be25518d9b3baf314247547e}{%
+           family={Makkar},
+           familyi={M\bibinitperiod},
+           given={Aaisha},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0518a1c483d6cb530b4cfefcc794873c}{%
+           family={Conway},
+           familyi={C\bibinitperiod},
+           given={Myra},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{da1449f5d7843f750145f10a065af1bf}
+      \strng{fullhash}{da1449f5d7843f750145f10a065af1bf}
+      \strng{bibnamehash}{da1449f5d7843f750145f10a065af1bf}
+      \strng{authorbibnamehash}{da1449f5d7843f750145f10a065af1bf}
+      \strng{authornamehash}{da1449f5d7843f750145f10a065af1bf}
+      \strng{authorfullhash}{da1449f5d7843f750145f10a065af1bf}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The rapid advancement of technology and the widespread adoption of various IoT devices have resulted in significant challenges in handling and analyzing the vast and diverse volumes of data they produce. Conventional machine learning methodologies, which require data aggregation in a centralized repository for analysis, are often unfeasible due to the significant data volume, limited communication bandwidth, and strict security and privacy requirements. Federated Learning (FL) presents an innovative resolution by facilitating data analysis to take place directly at the data origin, federating the outcomes to generate results comparable to centralized processing. Due to the advancements in growth of federated learning architecture, a number of open-source frameworks have been established to implement this strategy. These frameworks facilitate a range of applications, including healthcare and finance, as well as IoT and smart city initiatives, by enabling data to remain decentralized while still supporting the development of comprehensive analytical models. This study provides a comprehensive evaluation of these established open-source FL frameworks, examining their applicability across various sectors and highlighting their advantages and limitations. The authors examine the various architectural structures, supported algorithms, level of implementation ease, and community support of each framework. The assessment additionally takes into account the scalability of these frameworks and their flexibility in various data scenarios. Through the assessment of the current capabilities and developmental phases of these FL frameworks, this study aims to support practitioners and researchers in identifying the most suitable tools for their specific needs. This analysis highlights the significance of FL in facilitating secure and effective data analysis in the contemporary technological landscape.}
+      \field{issn}{18770509}
+      \field{journaltitle}{Procedia Computer Science}
+      \field{langid}{english}
+      \field{shortjournal}{Procedia Computer Science}
+      \field{title}{A {{Comprehensive Review}} of {{Open-Source Federated Learning Frameworks}}}
+      \field{urlday}{9}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{260}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{540\bibrangedash 551}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.procs.2025.03.232
+      \endverb
+      \verb{file}
+      \verb /home/veselm/Zotero/storage/3I387EW2/Mehdi et al. - 2025 - A Comprehensive Review of Open-Source Federated Learning Frameworks.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1877050925009767
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1877050925009767
+      \endverb
+    \endentry
+    \entry{rajeshkumarTop10Federated2026}{online}{}
+      \name{author}{1}{}{%
+        {{hash=85df0caaa1acc34fd5ebfe3d7b711a2c}{%
+           family={{rajeshkumar}},
+           familyi={r\bibinitperiod}}}%
+      }
+      \strng{namehash}{85df0caaa1acc34fd5ebfe3d7b711a2c}
+      \strng{fullhash}{85df0caaa1acc34fd5ebfe3d7b711a2c}
+      \strng{bibnamehash}{85df0caaa1acc34fd5ebfe3d7b711a2c}
+      \strng{authorbibnamehash}{85df0caaa1acc34fd5ebfe3d7b711a2c}
+      \strng{authornamehash}{85df0caaa1acc34fd5ebfe3d7b711a2c}
+      \strng{authorfullhash}{85df0caaa1acc34fd5ebfe3d7b711a2c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{20}
+      \field{langid}{american}
+      \field{month}{2}
+      \field{shorttitle}{Top 10 {{Federated Learning Platforms}}}
+      \field{title}{Top 10 {{Federated Learning Platforms}}: {{Features}}, {{Pros}}, {{Cons}} \& {{Comparison}} – {{Rajesh Kumar}}}
+      \field{urlday}{10}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/veselm/Zotero/storage/DLVCPU3L/federated-learning-platforms.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.rajeshkumar.xyz/blog/federated-learning-platforms/
+      \endverb
+      \verb{url}
+      \verb https://www.rajeshkumar.xyz/blog/federated-learning-platforms/
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

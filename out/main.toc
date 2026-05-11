@@ -17,8 +17,9 @@
 \contentsline {subsubsection}{\numberline {3.3.2}Privacy}{6}{subsubsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.4}Required technology}{6}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Comparative study}{7}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Flower}{7}{subsubsection.3.5.1}%
 \contentsline {subsection}{\numberline {3.6}Final selected technology / project tools}{7}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Choice reflection}{7}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.7}Choice reflection}{8}{subsection.3.7}%
 \contentsline {section}{\numberline {4}Reflection (16, 1520)}{9}{section.4}%
 \contentsline {subsection}{\numberline {4.1}General Reflection}{9}{subsection.4.1}%
 \contentsline {subsubsection}{\numberline {4.1.1}Achieved objectives}{9}{subsubsection.4.1.1}%
