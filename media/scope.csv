@@ -1,5 +1,5 @@
 Importance;Feature
-Must have;Simulation of apnea predictions by using federated learning on a single device without the Use of docker containers
+Must have;Simulation of apnea predictions by using federated learning on a single device without the use of docker containers
 Should have;Simulation of apnea predictions by using federated learning on a single device using docker/virtual Machine.
 Could have;Simulation of apnea predictions by using federated learning on single or multiple devices using docker/virtual machine.
 Could have;Differential privacy security feature implemented.

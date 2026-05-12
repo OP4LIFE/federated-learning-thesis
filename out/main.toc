@@ -5,32 +5,32 @@
 \contentsline {subsection}{\numberline {1.3}Intention}{2}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}Scope within the bachelor project (MVP – need to have)}{2}{subsection.1.4}%
 \contentsline {subsection}{\numberline {1.5}Ultimate scope (want to have)}{2}{subsection.1.5}%
-\contentsline {section}{\numberline {2}Software Requirements Specification (8, 760)}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Target group}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Method}{4}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Requirements}{4}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Preliminary Research (12, 1140)}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Federated Learning}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Related projects}{6}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Related solutions}{6}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Decentralized Learning}{6}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Privacy}{7}{subsubsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.4}Required technology}{7}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Comparative study}{8}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Final selected technology / project tools}{8}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Choice reflection}{8}{subsection.3.7}%
-\contentsline {section}{\numberline {4}Reflection (16, 1520)}{10}{section.4}%
-\contentsline {subsection}{\numberline {4.1}General Reflection}{10}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Achieved objectives}{10}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Test framework / technique}{10}{subsubsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.3}Security}{10}{subsubsection.4.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.4}Improvements}{11}{subsubsection.4.1.4}%
-\contentsline {subsubsection}{\numberline {4.1.5}Added value of the project}{11}{subsubsection.4.1.5}%
-\contentsline {subsubsection}{\numberline {4.1.6}Future opportunities}{11}{subsubsection.4.1.6}%
-\contentsline {subsubsection}{\numberline {4.1.7}Next steps}{11}{subsubsection.4.1.7}%
-\contentsline {subsection}{\numberline {4.2}Personal Reflection}{11}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Feedback}{12}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Appendices}{14}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Meeting minutes}{14}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Backlog}{14}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Story mapping}{14}{subsection.5.3}%
+\contentsline {section}{\numberline {2}Software Requirements Specification (8, 760)}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Target group}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Method}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Requirements}{3}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Preliminary Research (12, 1140)}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Federated Learning}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Related projects}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Related solutions}{5}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Decentralized Learning}{5}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Privacy}{6}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}Required technology}{6}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Comparative study}{7}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Final selected technology / project tools}{7}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Choice reflection}{7}{subsection.3.7}%
+\contentsline {section}{\numberline {4}Reflection (16, 1520)}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}General Reflection}{9}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Achieved objectives}{9}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Test framework / technique}{9}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Security}{9}{subsubsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.4}Improvements}{10}{subsubsection.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.5}Added value of the project}{10}{subsubsection.4.1.5}%
+\contentsline {subsubsection}{\numberline {4.1.6}Future opportunities}{10}{subsubsection.4.1.6}%
+\contentsline {subsubsection}{\numberline {4.1.7}Next steps}{10}{subsubsection.4.1.7}%
+\contentsline {subsection}{\numberline {4.2}Personal Reflection}{10}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Feedback}{11}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Appendices}{13}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Meeting minutes}{13}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Backlog}{13}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Story mapping}{13}{subsection.5.3}%
