@@ -7,28 +7,31 @@ The one and only target group of the project are developers. Most important aspe
 
 \subsection{Method}
 % What form of requirements gathering did you use? \label{q} \newline
-In order to discover, track, and prioritize all requirements, I was asking a variety of questions --- especially in the beginning --- and kept sorting them by importance using the MoSCoW framework\cite{MoSCoWMethod2026}. Besides being very simple and clear, this method has proven itself in my previous projects, which is the main reason why I chose it as my main tool at this stage. All of this was done on Jira in a kanban board, so that it has always remained organized and visible to me and mentors.
+In order to discover, track, and prioritize all requirements, I was asking a variety of questions --- especially in the beginning --- and kept sorting them by importance using the MoSCoW framework~\cite{MoSCoWMethod2026}. Besides being very simple and clear, this method has proven itself in my previous projects, which is the main reason why I chose it as my main tool at this stage. All of this was done on Jira in a kanban board, so that it has always remained organized and visible to me and mentors.
 
 
 \subsection{Requirements}
 
 %What are the functional requirements? \label{q} \newline
 %Which features/user stories did you design? \label{q} \newline
-\emph{Functional requirements} can be seen in the table~\ref{tab:requirements-with-scope}. ``Must have'' requirements form the minial viable product (MVP). Out of all requirements, I have created epics that can be seen in the list below. I have not used user stories, since the requirements are very broad with many tasks.
+\emph{Functional requirements} can be seen in the Table~\ref{tab:requirements-with-scope}. ``Must have'' requirements form the minimal viable product (MVP). Out of all requirements, I have created epics that can be seen in the list below. I have not used user stories, since the requirements are very broad with many tasks.
 
 \begin{enumerate}
     \item As a developer, \\
-    I want to be able to run a federated learning simulation of apnea predictions on a single computer without additional use of docker containers, \\
+    I want to run a single-machine and non-containerized simulation of apnea predictions using federated learning, \\
     so that the whole structure is as simple as possible.
     \item As a developer, \\
-    I want to be able to run a federated learning simulation of apnea predictions by using federated learning on a single device using docker/virtual machine, \\
+    I want to run a single-machine and containerized (with Docker) simulation of apnea predictions using federated learning, \\
     so that the whole project can be easily started by anyone on any machine.
     \item As a developer, \\
-    I want to be able to run a federated learning simulation of apnea predictions on a single computer without additional use of docker containers, \\
-    so that the whole structure is as simple as possible.
+    I want to run a multi-machine and containerized (with Docker) simulation of apnea predictions using federated learning, \\
+    so that the structure comes closer to real and production-ready implementation.
     \item As a developer, \\
-    I want to have a basic security feature like differential privacy implemented on top of federated structure, \\
-    so that I can assure the system also secures weights and parameters that are send to a central server.
+    I want to run a multi-machine and containerized (on Kubernetes) simulation of apnea predictions using federated learning, \\
+    so that the structure comes closer to real and production-ready implementation.
+    \item As a developer, \\
+    I want to have a differential privacy mechanism implemented on top of federated structure, \\
+    so that I can assure the system also secures weights and parameters that are sent to a central server.
 \end{enumerate}
 
 %What are the non‑functional requirements? \label{q} \newline
@@ -46,7 +49,7 @@ In order to discover, track, and prioritize all requirements, I was asking a var
 
 %Which features/user stories belong to the MVP? \label{q} \newline
 \begin{table}[htb]\centering
-    \caption{Functional requirements with their importance, at the top are the most important ones.}\label{tab:requirements-with-scope}
+    \caption{Functional requirements with their importance, higher rows correspond to higher priority.}\label{tab:requirements-with-scope}
     \csvreader[
         tabular = | p{0.2\textwidth} | p{0.75\textwidth} |,
         table head = \hline \textbf{Importance} & \textbf{Requirement}\\\hline,
