@@ -17,20 +17,26 @@
 \usepackage{csvsimple}
 \addbibresource{bachelor-work.bib}
 
+\AddToHook{cmd/section/before}{\clearpage}
+
 
 \begin{document}
+
+\renewcommand\thepage{}
 
 \begin{titlepage}
 \input{sections/title-page}
 \end{titlepage}
+\
+\vfil
+\hfil This page intentionally left blank. \hfil
+\vfil
 
-\newpage
 
 \hypersetup{linkcolor=black}
 \tableofcontents
 \hypersetup{linkcolor=blue}
 
-\newpage
 
 %TODO zahvale
 %TODO quote
@@ -38,21 +44,21 @@
 
 % TODO Q&A David: There is no Introduction section in the bachelor project paper template. Are we expected to add it our selves?
 % TODO: Remove word counts
+
 \section{Scope \& Vision (6, 570)}
 \input{sections/scope-and-vision}
-\newpage
+
+\setcounter{page}{1}
+\renewcommand\thepage{\arabic{page}}
 
 \section{Software Requirements Specification (8, 760)}
 \input{sections/software-requirements-specification}
-\newpage
 
 \section{Preliminary Research (12, 1140)} \label{sec:preliminary-research}
 \input{sections/preliminary-research}
-\newpage
 
 \section{Reflection (16, 1520)}
 \input{sections/reflection/reflection}
-\newpage
 
 % TODO Not written using AI.
 %Declaration of competing interest
@@ -62,7 +68,6 @@
 
 \section{Appendices}
 \input{sections/appendices}
-\newpage
 
 \printbibliography
 
