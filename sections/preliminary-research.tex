@@ -12,23 +12,23 @@ Federated learning is a \emph{decentralized learning} technique, which means the
  \item The process repeats from the second step. Each local model now becomes better as it receives the average ``knowledge'' from all others.
 \end{enumerate}
 
-\subsubsection{Types of Federated Learning}
-There are two main types of federated learning that can be implemented based on the similarities between datasets of clients. It is important understand the definition of the dataset: A \emph{dataset} is a collection of data, commonly structured into a format comparable to a spreadsheet where each rows represent an example (or a record)~\cite{MachineLearningGlossary}. An example are values that represent either a feature or a label. A feature is input for a machine learning model, such as heart rate. A label is either output of a machine learning model --- in a disease prediction examples would be 0 (``Obstructive sleep apnea not detected'') or 1 (``Obstructive sleep apnea detected'') --- or an answer for a machine learning model while it is being trained on so called labeled data. 
+\subsubsection{Types}
+There are two main types of federated learning that can be implemented based on the similarities between datasets of clients. A definition of a dataset is essential: A \emph{dataset} is a collection of data, commonly structured into a format comparable to a spreadsheet where each rows represent a record (also called example). A record consists of values that represent either a feature or a label. A feature is input for a machine learning model, such as heart rate. A label is either output of a machine learning model --- in a disease prediction examples would be 0 (``Obstructive sleep apnea not detected'') or 1 (``Obstructive sleep apnea detected'') --- or an answer for a machine learning model while it is being trained on so called labeled data~\cite{MachineLearningGlossary}.
 
-In \emph{horizontal federated learning} clients' datasets describe same features meanwhile the data itself is different~\cite{zhangIntroductionFederatedLearning2022, FederatedLearningWhat, strykerWhatFederatedLearning2025a}. For example, there are most likely many hospitals worldwide that have treated sleep apnea and have targeted same medical features, such as heart rate and oxygen saturation, but collected different data.
+\paragraph{Horizontal Federated Learning} In horizontal federated learning, clients' datasets describe same features meanwhile the data is different~\cite{prayitnoSystematicReviewFederated2021, zhangIntroductionFederatedLearning2022, FederatedLearningWhat, strykerWhatFederatedLearning2025a}. For distinction with vertical federated learning, it is important here to keep in mind an almost obvious fact --- By saying ``the data is different'' between clients, we mean that the feature that uniquely identifies a record, such as an email or a national identification number, is never duplicated across clients' datasets.   For example, there are most likely many hospitals worldwide that have treated sleep apnea and have targeted same medical features, such as heart rate and oxygen saturation, but collected different data for different patients (see Figure~\ref{fig:types-of-federated-learning}). A federated learning model could predict sleep apnea based on all hospitals' client models.
 
-In \emph{vertical federated learning} client's datasets describe same. For example,
+\paragraph{Vertical Federated Learning} In vertical federated learning, clients' datasets describe different data and different features, except for identification features such as identification number~\cite{prayitnoSystematicReviewFederated2021, zhangIntroductionFederatedLearning2022, FederatedLearningWhat, strykerWhatFederatedLearning2025a}. For example, a country has a hospital for sleep disorders that collects features like patient national identification number, heart rate and oxygen saturation, and a cancer hospital that collects patient national identification number, x-ray scan images, blood information (visualized in Figure~\ref{fig:types-of-federated-learning}, although a health insurance is used instead of a cancer hospital)~\cite{shiVerticalFederatedLearning2025}. A federated learning model could connect the knowledge of both hospitals using patient identifier, find patterns, and become more holistic in its predictions.
 
-Examples of both are shown in Figure~\ref{fig:types-of-federated-learning}. We will focus on horizontal federated learning prototype, because our features remain same across clients, namely hospitals.
+\paragraph{Federated Transfer Learning} In federated transfer learning, clients' datasets describe different data and different features, including the identification features ~\cite{prayitnoSystematicReviewFederated2021, zhangIntroductionFederatedLearning2022, FederatedLearningWhat, strykerWhatFederatedLearning2025a}. For example, two countries have two hospitals and there is very little overlap between features or data --- the patients' identification is also mostly different --- yet federated transfer learning can be applied in this scenario to combine their knowledge.
+
+We will focus on horizontal federated learning prototype, because our features remain same across clients, namely hospitals.
 
 \begin{figure}[htb]
- \caption{Visualization of main types of federated learning in healthcare scenarios~\cite{prayitnoSystematicReviewFederated2021}. On the left horizontal federated learning from different data with same features. On the right vertical federated learning from  }
+ \caption{Visualization of main types of federated learning in healthcare scenarios, sourced from~\cite{prayitnoSystematicReviewFederated2021}. On the left horizontal federated learning from different data with same features. On the right vertical federated learning from different data and mostly different features.}
  \centering
  \includegraphics[width=\textwidth]{media/types-of-federated-learning}\label{fig:types-of-federated-learning}
 \end{figure}
 
-general difference:~\cite{zhangIntroductionFederatedLearning2022, FederatedLearningWhat, strykerWhatFederatedLearning2025a}
-healthcare examples:~\cite{shiVerticalFederatedLearning2025, prayitnoSystematicReviewFederated2021}
 
 \subsection{Related projects}
 
