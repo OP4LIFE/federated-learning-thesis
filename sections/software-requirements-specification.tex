@@ -1,38 +1,64 @@
-\subsection{Target group} % v1.0.0
+\subsection{Target group}
+%Who are the target groups of the tool to be developed? \label{q} \newline
+%What aspects must you consider for these target groups? \label{q} \newline
+%What are the needs of these target groups? \label{q} \newline
+The primary target group of the project is developers. Most important aspect to consider for this target group is the knowledge to read code and its documentation. Their needs are not only to be able to understand code and its documentation, but also know how to interpret the results at the most basic level, and most important, they need to know how to run the project.
 
-Who are the target groups of the tool to be developed? \label{q} \newline % v1.0.0
-
-What aspects must you consider for these target groups? \label{q} \newline % v1.0.0
-
-What are the needs of these target groups? \label{q} \newline % v1.0.0
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi pretium tellus duis convallis tempus leo eu aenean sed diam urna tempor pulvinar vivamus fringilla lacus nec metus bibendum egestas iaculis massa nisl malesuada lacinia integer nunc posuere ut hendrerit semper vel class aptent taciti sociosqu ad litora torquent per conubia nostra inceptos himenaeos orci varius natoque penatibus et magnis dis parturient montes nascetur ridiculus mus donec rhoncus eros lobortis nulla molestie mattis scelerisque maximus eget fermentum odio phasellus non purus est efficitur laoreet mauris pharetra vestibulum fusce dictum risus.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi pretium tellus duis convallis tempus leo eu aenean sed diam urna tempor pulvinar vivamus fringilla lacus nec metus bibendum egestas iaculis massa nisl malesuada lacinia integer nunc posuere ut hendrerit semper vel class aptent taciti sociosqu ad litora torquent per conubia nostra inceptos himenaeos orci varius natoque penatibus et magnis dis parturient montes nascetur ridiculus mus donec rhoncus eros lobortis nulla molestie mattis scelerisque maximus eget fermentum odio phasellus non purus est efficitur laoreet mauris pharetra vestibulum fusce dictum risus.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi pretium tellus duis convallis tempus leo eu aenean sed diam urna tempor pulvinar vivamus fringilla lacus nec metus bibendum egestas iaculis massa nisl malesuada lacinia integer nunc posuere ut hendrerit semper vel class aptent taciti sociosqu ad litora torquent per conubia nostra inceptos himenaeos orci varius natoque penatibus et magnis dis parturient montes nascetur ridiculus mus donec rhoncus eros lobortis nulla molestie mattis scelerisque maximus eget fermentum odio phasellus non purus est efficitur laoreet mauris pharetra vestibulum fusce dictum risus.
+For the umbrella project eEarly, there are more potential stakeholders such as patients, whose sensitive data is guaranteed to remain private during the artificial intelligence training process, and doctors that would receive improved disease predictions. Perhaps there are even stakeholders from the legal perspective since the sensitive data is not moved and there is less possibility to breach current legislations and less need to adapt it. Though that is out-of-scope for the federated learning project.
 
 
-\subsection{Method} % v1.0.0
+\subsection{Method}
+% What form of requirements gathering did you use? \label{q} \newline
+In order to discover, track, and prioritize all requirements, I was, especially in the beginning, asking a variety of questions to my mentor at Result d.o.o.\ and kept sorting them by importance using the MoSCoW framework~\cite{MoSCoWMethod2026}. Besides being very simple and clear, this method has proven itself in my previous projects, which is the main reason why I chose it as my main tool at this stage. All of this was done on Jira in a kanban board, so that it has always remained organized and visible to me and mentors.
 
-% What form of requirements gathering did you use? \label{q} \newline % v1.0.0
-In order to discover, track, and prioritize all requirements, I was asking a variety of questions --- especially in the beginning --- and kept sorting them by importance using the MoSCoW framework\cite{MoSCoWMethod2026}. Besides being very simple and clear, this method has proven itself in my previous projects, which is the main reason why I chose it as my main tool at this stage. All of this was done on Jira in a kanban board, so that it has always remained organized and visible to me and mentors.
 
+\subsection{Requirements}
 
-\subsection{Requirements} % v1.0.0
+%What are the functional requirements? \label{q} \newline
+%Which features/user stories did you design? \label{q} \newline
+\emph{Functional requirements} can be seen in the Table~\ref{tab:requirements-with-scope}. ``Must have'' requirements form the minimal viable product (MVP). Out of all requirements, I have created epics that can be seen in the list below. I have not used user stories, since the requirements are very broad with many tasks.
 
-What are the functional requirements? \label{q} \newline % v1.0.0
+\begin{enumerate}
+    \item As a developer, \\
+    I want to run a single-machine and non-containerized simulation of apnea predictions using federated learning, \\
+    so that the whole structure is as simple as possible.
+    \item As a developer, \\
+    I want to run a single-machine and containerized (with Docker) simulation of apnea predictions using federated learning, \\
+    so that the whole project can be easily started by anyone on any machine.
+    \item As a developer, \\
+    I want to run a multi-machine and containerized (with Docker) simulation of apnea predictions using federated learning, \\
+    so that the structure comes closer to real and production-ready implementation.
+    \item As a developer, \\
+    I want to run a multi-machine and containerized (on Kubernetes) simulation of apnea predictions using federated learning, \\
+    so that the structure comes closer to real and production-ready implementation.
+    \item As a developer, \\
+    I want to have a differential privacy mechanism implemented on top of federated structure, \\
+    so that I can assure the system also secures weights and parameters that are sent to a central server.
+\end{enumerate}
 
-Which features/user stories did you design? \label{q} \newline % v1.0.0
+%What are the non‑functional requirements? \label{q} \newline
+\noindent \newline
+\emph{Non-functional requirements}:
+\begin{itemize}
+    \item A developer needs to understand
+    \begin{itemize}
+        \item the code,
+        \item the documentation,
+        \item how to interpret results at the most basic level, and
+        \item how to run the project.
+    \end{itemize}
+\end{itemize}
 
-What are the non‑functional requirements? \label{q} \newline % v1.0.0
-
-Which features/user stories belong to the MVP? \label{q} \newline % v1.0.0
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi pretium tellus duis convallis tempus leo eu aenean sed diam urna tempor pulvinar vivamus fringilla lacus nec metus bibendum egestas iaculis massa nisl malesuada lacinia integer nunc posuere ut hendrerit semper vel class aptent taciti sociosqu ad litora torquent per conubia nostra inceptos himenaeos orci varius natoque penatibus et magnis dis parturient montes nascetur ridiculus mus donec rhoncus eros lobortis nulla molestie mattis scelerisque maximus eget fermentum odio phasellus non purus est efficitur laoreet mauris pharetra vestibulum fusce dictum risus.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi pretium tellus duis convallis tempus leo eu aenean sed diam urna tempor pulvinar vivamus fringilla lacus nec metus bibendum egestas iaculis massa nisl malesuada lacinia integer nunc posuere ut hendrerit semper vel class aptent taciti sociosqu ad litora torquent per conubia nostra inceptos himenaeos orci varius natoque penatibus et magnis dis parturient montes nascetur ridiculus mus donec rhoncus eros lobortis nulla molestie mattis scelerisque maximus eget fermentum odio phasellus non purus est efficitur laoreet mauris pharetra vestibulum fusce dictum risus.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi pretium tellus duis convallis tempus leo eu aenean sed diam urna tempor pulvinar vivamus fringilla lacus nec metus bibendum egestas iaculis massa nisl malesuada lacinia integer nunc posuere ut hendrerit semper vel class aptent taciti sociosqu ad litora torquent per conubia nostra inceptos himenaeos orci varius natoque penatibus et magnis dis parturient montes nascetur ridiculus mus donec rhoncus eros lobortis nulla molestie mattis scelerisque maximus eget fermentum odio phasellus non purus est efficitur laoreet mauris pharetra vestibulum fusce dictum risus.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi pretium tellus duis convallis tempus leo eu aenean sed diam urna tempor pulvinar vivamus fringilla lacus nec metus bibendum egestas iaculis massa nisl malesuada lacinia integer nunc posuere ut hendrerit semper vel class aptent taciti sociosqu ad litora torquent per conubia nostra inceptos himenaeos orci varius natoque penatibus et magnis dis parturient montes nascetur ridiculus mus donec rhoncus eros lobortis nulla molestie mattis scelerisque maximus eget fermentum odio phasellus non purus est efficitur laoreet mauris pharetra vestibulum fusce dictum risus.
+%Which features/user stories belong to the MVP? \label{q} \newline
+\begin{table}[htb]\centering
+    \caption{Functional requirements with their importance, higher rows correspond to higher priority.}\label{tab:requirements-with-scope}
+    \csvreader[
+        tabular = | p{0.2\textwidth} | p{0.75\textwidth} |,
+        table head = \hline \textbf{Importance} & \textbf{Requirement}\\\hline,
+        late after line = \\\hline,
+        separator = semicolon
+    ]{media/scope.csv}%
+    {Importance=\importance, Requirement=\requirement}{%
+        \importance & \requirement
+    }
+\end{table}

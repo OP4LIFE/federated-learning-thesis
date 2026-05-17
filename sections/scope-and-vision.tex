@@ -1,46 +1,34 @@
 % TODO MATEJ: remove versions
-\subsection{Background} % v1.0.0
+\subsection{Background}
 
-% What is the background of the company for which you carried out this project? Not applicable if the project was not conducted for a company. \label{q} \newline % v1.0.0
-The project was carried out in company Result d.o.o. They are a software development company, but also focus on data, artificial intelligence, and business solutions. They work on many projects, some of which are european. One such is eEarly --- an open platform for analysation and gathering of health data\cite{EEarly}. It was also the umbrella for this bachelor work.
+% What is the background of the company for which you carried out this project? Not applicable if the project was not conducted for a company. \label{q} \newline
+The project was carried out at company Result d.o.o.\ It is a software development company, but also focus on data, artificial intelligence, and business solutions. They work on many projects, some of which are European. One such is eEarly --- an open platform for analysis and gathering of health data~\cite{EEarly}. It was also the umbrella for this bachelor work.
 
-% Why would the company want this to be researched or developed? If not for a company: what is the motivation behind the bachelor project? \label{q} \newline % v1.0.0
-European Union has many regulations and laws when it comes to data, and there are even more for each individual country, organisation,\ldots This introduces challenges for projects like eEarly that utilize artificial intelligence and deal with sensitive medical data. From here we can easily see the motivation for my bachelor project: To find the bridge between sensitive data, artificial intelligence, and a lake of regulations.
+% Why would the company want this to be researched or developed? If not for a company: what is the motivation behind the bachelor project? \label{q} \newline
+European Union has many regulations and laws related to data, and there are even more for each individual country, organisation,\ldots This introduces challenges for projects like eEarly that utilize artificial intelligence and deal with sensitive medical data. The motivation for my bachelor project is to find the bridge between sensitive data, artificial intelligence, and a complex regulatory landscape.
 
 
-\subsection{Problem statement} % v1.0.0
+\subsection{Problem statement}
 
-% What is the problem statement? \label{q} \newline % v1.0.0
+% What is the problem statement? \label{q} \newline
 % TODO Q&A MANJA: "each hospital keeps its data isolated" source
-In an ideal situation, an artificial intelligence model could train on all data without restrictions. In reality, besides strict European Union laws, each hospital keeps its data isolated. This reveals the main issue: An artificial intelligence model can only train on one hospital. Consequences of this are bad model performance, predictions, and ultimately uselessness of the new technology. From this follows the proposal, which is not to loosen the law, but to explore techniques like federated learning\cite{FederatedLearning2026} to satisfy both the regulations and the artificial intelligence's need for data.
+In an ideal situation, an artificial intelligence model could train on all data without restrictions. In reality, besides strict European Union laws, each hospital keeps its data isolated. This reveals the main issue: An artificial intelligence model can only train on one hospital. Consequences of this are poor model performance, predictions, and ultimately uselessness of the new technology. From this follows the proposal, which is not to loosen the law, but to explore techniques like federated learning~\cite{FederatedLearning2026} to satisfy both the regulations and the artificial intelligence's need for data.
 
 
-\subsection{Intention} % v1.0.0
+\subsection{Intention}
 
-% What is the company’s intention? If not for a company: how will the product be used in the long term (independently of a company)? \label{q} \newline % v1.0.0
-% TODO Q&A MANJA: More info
-- might be fully implemented, real hospitals.
-- POC for future projects.
--
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi pretium tellus duis convallis tempus leo eu aenean sed diam urna tempor pulvinar vivamus fringilla lacus nec metus bibendum egestas iaculis massa nisl malesuada lacinia integer nunc posuere ut hendrerit semper vel class aptent taciti sociosqu ad litora torquent per conubia nostra inceptos himenaeos orci varius natoque penatibus et magnis dis parturient montes nascetur ridiculus mus donec rhoncus eros lobortis nulla molestie mattis scelerisque maximus eget fermentum odio phasellus non purus est efficitur laoreet mauris pharetra vestibulum fusce dictum risus blandit quis suspendisse aliquet nisi sodales consequat magna ante condimentum neque at luctus nibh.
+% What is the company’s intention? If not for a company: how will the product be used in the long term (independently of a company)? \label{q} \newline
+The main intention of the project is to develop a federated learning proof-of-concept (POC) for the company, which can later be used as a starting point for other projects and might be fully implemented, possibly in a healthcare environment. It might also become a new privacy-oriented artificial intelligence solution that the company could offer to clients for commercialization as a reusable asset.
 
 
-\subsection{Scope within the bachelor project (MVP – need to have)} % v1.0.0
+\subsection{Scope within the bachelor project (MVP – need to have)}
 
-% What is the scope of the project within this bachelor project? \label{q} \newline % v1.0.0
-% TODO Q&A MANJA:
-% - Kaj bo cilj modela? Apneja?
-% - Na kateri napravi bodo lokalni modeli in globalni?
-% - Kaj bo vir podatkov?
-% - Kaksni bodo podatki?
-%
-% MoSCoW:
+% What is the scope of the project within this bachelor project? \label{q} \newline
+The scope can be seen on the Table~\ref{tab:requirements-with-scope} on page~\pageref{tab:requirements-with-scope}. The requirement descriptions include terminology introduced in Section~\ref{sec:preliminary-research}. ``Must have'' features describe the minimal viable product (MVP); without these, the project is not deemed finished, unless blockers are clearly stated.
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi pretium tellus duis convallis tempus leo eu aenean sed diam urna tempor pulvinar vivamus fringilla lacus nec metus bibendum egestas iaculis massa nisl malesuada lacinia integer nunc posuere ut hendrerit semper vel class aptent taciti sociosqu ad litora torquent per conubia nostra inceptos himenaeos orci varius natoque penatibus et magnis dis parturient montes nascetur ridiculus mus donec rhoncus eros lobortis nulla molestie mattis scelerisque maximus eget fermentum odio phasellus non purus est efficitur laoreet mauris pharetra vestibulum fusce dictum risus blandit quis suspendisse aliquet nisi sodales consequat magna ante condimentum neque at luctus nibh.
 
-\subsection{Ultimate scope (want to have)} % v1.0.0
+\subsection{Ultimate scope (want to have)}
 
-What is the ultimate scope? \label{q} \newline % v1.0.0
+%What is the ultimate scope? \label{q} \newline
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi pretium tellus duis convallis tempus leo eu aenean sed diam urna tempor pulvinar vivamus fringilla lacus nec metus bibendum egestas iaculis massa nisl malesuada lacinia integer nunc posuere ut hendrerit semper vel class aptent taciti sociosqu ad litora torquent per conubia nostra inceptos himenaeos orci varius natoque penatibus et magnis dis parturient montes nascetur ridiculus mus donec rhoncus eros lobortis nulla molestie mattis scelerisque maximus eget fermentum odio phasellus non purus est efficitur laoreet mauris pharetra vestibulum fusce dictum risus blandit quis suspendisse aliquet nisi sodales consequat magna ante condimentum neque at luctus nibh.
+Ultimate scope of the project is defined with features of ``Should have'' and ``Could have'' importance in the Table~\ref{tab:requirements-with-scope} on page~\pageref{tab:requirements-with-scope}. One can see that as importance lowers, features become closer to those of realistic setting in which federated learning would have been deployed, and more unknown challenges might appear.
