@@ -7,12 +7,15 @@ The project was carried out at company Result d.o.o.\ It is a software developme
 % Why would the company want this to be researched or developed? If not for a company: what is the motivation behind the bachelor project? \label{q} \newline
 European Union has many regulations and laws related to data, and there are even more for each individual country, organisation,\ldots This introduces challenges for projects like eEarly that utilize artificial intelligence and deal with sensitive medical data. The motivation for my bachelor project is to find the bridge between sensitive data, artificial intelligence, and a complex regulatory landscape.
 
+% Manja's suggestion: V uvodu (poglavje 1.1. Background) še omeni, da bo bolj jasno, da je projekt usmerjen v uporabo biometričnih podatkov s senzorji in da bi se konkretno delalo na zaznavanju oz podpori diagnostiki za sleep anea-o. Da se uporabijo signali od oxygen saturationa, heart rate-a. Ker so občutljivi podatki in obiajno ostanejo na infrstrukturah od bolnišnic, je lahko to dejanski edge node uporabljen za federated learning.
+The direction of the artificial intelligence model was disease prediction. The main sources of data were APNEA HRV+SPO2 DATASET~\cite{julia-serdaAPNEAHRV+SPO2DATASET2023} and a smart medical ring Wellue O2Ring \footnote{https://getwellue.com/pages/o2ring-oxygen-monitor} that a person can wear while it continuously performs medical measurements. The artificial intelligence model used heart rate and oxygen saturation (SpO2) to predict whether a person has sleep-related breathing disorder called obstructive sleep apnea (OBS)~\cite{strolloObstructiveSleepApnea1996}.
+
 
 \subsection{Problem statement}
 
 % What is the problem statement? \label{q} \newline
 % TODO Q&A MANJA: "each hospital keeps its data isolated" source
-In an ideal situation, an artificial intelligence model could train on all data without restrictions. In reality, besides strict European Union laws, each hospital keeps its data isolated. This reveals the main issue: An artificial intelligence model can only train on one hospital. Consequences of this are poor model performance, predictions, and ultimately uselessness of the new technology. From this follows the proposal, which is not to loosen the law, but to explore techniques like federated learning~\cite{FederatedLearning2026} to satisfy both the regulations and the artificial intelligence's need for data.
+In an ideal situation, an artificial intelligence model could train on all data without restrictions. In reality, besides strict European Union laws, such as General Data Protection Regulation (GDPR)~\cite{sasirekhaSystematicReviewPrivacypreserving2025, prayitnoSystematicReviewFederated2021}, each hospital normally keeps its data isolated. This reveals the main issue: An artificial intelligence model can --- without considerable legal and data privacy effort --- only train on one hospital. Consequences of this are poor model performance with less accurate predictions, and the new technologies are not being utilized fully~\cite{abdallaFutureArtificialIntelligence2025}. From this follows the proposal, which is not to loosen the law, but to explore techniques like federated learning~\cite{FederatedLearning2026} to satisfy both the regulations and the artificial intelligence's demand for data.
 
 
 \subsection{Intention}
