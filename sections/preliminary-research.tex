@@ -46,7 +46,7 @@ During COVID-19 pandemic, researchers all over the world have established connec
 % Are there already similar digital solutions or tools that address this? \label{q} \newline
 Main characteristics of federative learning described in Section~\ref{subsec:federative-learning} are decentralized learning and privacy; I use this two for finding related solutions below.
 
-\subsubsection{Decentralized Learning}
+\subsubsection{Decentralized Learning Techniques}
 
 \emph{Fog computing} is an improved approach on top of federated learning. It originates from the network challenges of federated learning,  focuses on layered architecture of communication between local and global model, and aims to reduce network traffic~\cite{gorrichoMASTERSDEGREETELECOMMUNICATIONS}.
 
@@ -55,9 +55,10 @@ Being a decentralized technique, federated learning still has a central, global 
 Similar to gossip learning is \emph{swarm learning}. The main difference is its use of blockchain peer-to-peer communication that is configured between the local models. This enables swarm learning to be a very related solution, with even better potential privacy and fault tolerance (because there is no single point of failure like the global model server)~\cite{shammarSwarmLearningSurvey2025}.
 
 % Can existing digital solutions be (partially) reused? \label{q} \newline
-From the three main decentralized learning alternatives, swarm learning would be the most advanced and related proof of concept to be developed, and definitely long away from the MVP. Fog computing is too extensive and our aim is more to increase privacy than to reduce network traffic.
+Centralized learning does not come into considerations because the movement of data to a central server is restricted by data regulations. Federated learning is perfect for the MVP, as it is simple and the core concept for the decentralization alternatives above that introduce unnecessary complexity for the project at this stage, although techniques like swarm learning would be necessary on a production-ready.
 
-\subsubsection{Privacy}
+
+\subsubsection{Privacy Preserving Techniques}
 
 In general, \emph{homomorphic encryption} creates a possibility to make operations on encrypted data, without ever decrypting it. This can be applied both to normal and federated machine learning, although it is rather an addon than a replacement for the latter. The challenges include computational overhead and lack of support for some operations, thus finding a balance between privacy and performance is an important question~\cite{hallajiDecentralizedFederatedLearning2024, marquesTrainingMachineLearning2026}.
 
