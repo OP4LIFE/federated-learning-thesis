@@ -15,6 +15,7 @@
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
 \usepackage[backend=biber, style=ieee]{biblatex}
 \usepackage{csvsimple}
+\usepackage[toc,page]{appendix}
 \addbibresource{bachelor-work.bib}
 
 \AddToHook{cmd/section/before}{\clearpage}
@@ -66,8 +67,10 @@
 %cial interests or personal relationships that could have appeared
 %to influence the work reported in this paper.
 
-\section{Appendices}
+\begin{appendices}
 \input{sections/appendices}
+\end{appendices}
+
 
 \printbibliography
 
