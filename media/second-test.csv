@@ -1,0 +1,14 @@
+Metric;Centralized;Federated;Difference
+train\_accuracy;0.80;0.79;0.01
+train\_f1\_1;0.52;0.51;0.01
+train\_f1\_0;0.78;0.74;0.02
+train\_precision\_1;0.43;0.40;0.03
+train\_precision\_0;0.86;0.87;0.01
+train\_recall\_1;0.64;0.70;0.06
+train\_recall\_0;0.72;0.65;0.07
+test\_accuracy;0.76;0.83;0.07
+test\_precision;0.35;0.00;0.35
+test\_recall;0.48;0.00;0.48
+avg\_train\_difference;;;0.03
+avg\_test\_difference;;;0.3
+avg\_difference;;;0.111

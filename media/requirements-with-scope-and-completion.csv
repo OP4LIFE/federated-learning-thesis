@@ -1,0 +1,10 @@
+Importance;Requirement;Implemented
+Must have;Single-machine and non-containerized simulation of apnea predictions using federated learning.;Yes
+Should have;Single-machine and containerized (with Docker) simulation of apnea predictions using federated learning.;Yes
+Could have;Differential privacy mechanism implemented.;No
+Could have;Multi-machine and containerized (with Docker) simulation of apnea predictions using federated learning.;Yes
+Could have;Multi-machine and containerized (on Kubernetes) simulation of apnea predictions using federated learning.;No
+Will not have;Non-basic visualizations.;No
+Will not have;Advanced artificial model.;No
+Will not have;Other security features like secure multiparty computation.;No
+Will not have;Production ready features, e.g. blockchain technologies like swarm learning, compatibility with NVIDIA FLARE.;No

@@ -36,3 +36,18 @@
     \centering
     \includegraphics[width=\textwidth]{media/jira-timeline}
 \end{figure}
+
+\section{Second Test} \label{appendix:second-test}
+
+\begin{table}[htb]\centering
+    \caption{Results of centralized and federated learning approach and their comparison. In a federated setting, the test consisted of 3 hospitals (clients), 5 rounds and 15 epochs. In a centralized setting, it consisted of 15*5*3 (255) epochs. Hyperparameters were the same for both approaches. Number 0 or 1 after metric name indicates whether it was calculated for patients with or without obstructive sleep apnea.}\label{tab:first-test}
+    \csvreader[
+        tabular = | p{0.1925\textwidth} | p{0.1925\textwidth} | p{0.1925\textwidth} | p{0.1925\textwidth} |,
+        table head = \hline \textbf{Metric} & \textbf{Centralized} & \textbf{Federated} & \textbf{Difference}\\\hline,
+        late after line = \\\hline,
+        separator = semicolon
+    ]{media/first-test.csv}%
+    {Metric=\metric, Centralized=\centralized, Federated=\federated, Difference=\difference}{%
+        \metric & \centralized & \federated & \difference
+    }
+\end{table}
