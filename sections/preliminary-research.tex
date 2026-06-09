@@ -1,4 +1,4 @@
-\subsection{Federated Learning} \label{subsec:federative-learning}
+\subsection{Federated learning} \label{subsec:federative-learning}
 Imagine there are researchers working on a project and they do not tell each other anything about themselves, their names, education, age\ldots They only contribute with their current knowledge without revealing their personal information. This is what federated learning tries to achieve~\cite{FederatedLearningCollaborativea}. Later on I talk about global and local models, in this example, researchers play a role of local models, and the project would be a global model.
 
 Federated learning is a \emph{decentralized learning} technique, which means the learning is not accomplished centrally on a single device --- normally a server --- but is kept on the edge, close to the main source of the data. Since it is decentralized, this also leads to great benefits regarding \emph{privacy} and regulations as data is not moved out of its safe zone. In practice, we accomplish this using two types artificial intelligence models: global and local. The algorithm~\cite{strykerWhatFederatedLearning2025} contains the following steps:
@@ -46,7 +46,7 @@ During COVID-19 pandemic, researchers all over the world have established connec
 % Are there already similar digital solutions or tools that address this? \label{q} \newline
 Main characteristics of federative learning described in Section~\ref{subsec:federative-learning} are decentralized learning and privacy; I use this two for finding related solutions below.
 
-\subsubsection{Decentralized Learning Techniques}
+\subsubsection{Decentralized learning techniques}
 
 \emph{Fog computing} is an improved approach on top of federated learning. It originates from the network challenges of federated learning,  focuses on layered architecture of communication between local and global model, and aims to reduce network traffic~\cite{gorrichoMASTERSDEGREETELECOMMUNICATIONS}.
 
@@ -58,7 +58,7 @@ Similar to gossip learning is \emph{swarm learning}. The main difference is its 
 Centralized learning does not come into considerations because the movement of data to a central server is restricted by data regulations. Federated learning is perfect for the MVP, as it is simple and the core concept for the decentralization alternatives above that introduce unnecessary complexity for the project at this stage, although techniques like swarm learning would be necessary on a production-ready.
 
 
-\subsubsection{Privacy Preserving Techniques} \label{subsubsec:privacy-perserving-techniques}
+\subsubsection{Privacy preserving techniques} \label{subsubsec:privacy-perserving-techniques}
 
 In general, \emph{homomorphic encryption} creates a possibility to make operations on encrypted data, without ever decrypting it. This can be applied both to normal and federated machine learning, although it is rather an addon than a replacement for the latter. The challenges include computational overhead and lack of support for some operations, thus finding a balance between privacy and performance is an important question~\cite{hallajiDecentralizedFederatedLearning2024, marquesTrainingMachineLearning2026}.
 

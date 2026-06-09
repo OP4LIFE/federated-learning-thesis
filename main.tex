@@ -1,14 +1,9 @@
 \documentclass{article}
 
-% Language setting
-% Replace `english' with e.g. `spanish' to change the document language
 \usepackage[english]{babel}
 
-% Set page size and margins
-% Replace `letterpaper' with `a4paper' for UK/EU standard size
 \usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
 
-% Useful packages
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{svg}
@@ -25,26 +20,20 @@
 
 \renewcommand\thepage{}
 
+
 \begin{titlepage}
 \input{sections/title-page}
 \end{titlepage}
-\
-\vfil
-\hfil This page intentionally left blank. \hfil
-\vfil
+
+\begin{acknowledgements}
+    \input{sections/acknowledgements}
+\end{acknowledgements}
 
 
 \hypersetup{linkcolor=black}
 \tableofcontents
 \hypersetup{linkcolor=blue}
 
-
-%TODO zahvale
-%TODO quote
-%TODO UCLL barve
-
-% TODO Q&A David: There is no Introduction section in the bachelor project paper template. Are we expected to add it our selves?
-% TODO: Remove word counts
 
 \section{Scope \& Vision}
 \input{sections/scope-and-vision}
@@ -61,12 +50,6 @@
 \section{Reflection}
 \input{sections/reflection/reflection}
 
-% TODO Not written using AI.
-%Declaration of competing interest
-%The authors declare that they have no known competing finan-
-%cial interests or personal relationships that could have appeared
-%to influence the work reported in this paper.
-
 \begin{appendices}
 \input{sections/appendices}
 \end{appendices}
@@ -75,5 +58,3 @@
 \printbibliography
 
 \end{document}
-
-%// TODO it is relevant gartenrs hype cycle.
