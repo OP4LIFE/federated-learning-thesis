@@ -1,13 +1,13 @@
 \subsection{Background}
 
 % What is the background of the company for which you carried out this project? Not applicable if the project was not conducted for a company. \label{q} \newline
-The project was carried out at company Result d.o.o.\ It is a software development company, but also focus on data, artificial intelligence, and business solutions. They work on many projects, some of which are European. One such is eEarly --- an open platform for analysis and gathering of health data~\cite{EEarly}. It was also the umbrella for this bachelor work.
+The project was carried out at Result d.o.o.\ It is a software development company, but also with a focus on data, artificial intelligence, and business solutions. Result works on many projects, some of which are European. One such is eEarly --- an open platform for analysis and gathering of health data~\cite{EEarly}. It also provided the context for this bachelor thesis.
 
 % Why would the company want this to be researched or developed? If not for a company: what is the motivation behind the bachelor project? \label{q} \newline
-European Union has many regulations and laws related to data, and there are even more for each individual country, organisation,\ldots This introduces challenges for projects like eEarly that utilize artificial intelligence and deal with sensitive medical data. The motivation for my bachelor project is to find the bridge between sensitive data, artificial intelligence, and a complex regulatory landscape.
+The European Union has many regulations and laws related to data, and there are even more for each individual country, organisation,and so on. This introduces challenges for projects like eEarly that utilize artificial intelligence and deal with sensitive medical data. The motivation for my bachelor thesis is to find the bridge between sensitive data, artificial intelligence, and a complex regulatory landscape.
 
 % Manja's suggestion: V uvodu (poglavje 1.1. Background) še omeni, da bo bolj jasno, da je projekt usmerjen v uporabo biometričnih podatkov s senzorji in da bi se konkretno delalo na zaznavanju oz podpori diagnostiki za sleep anea-o. Da se uporabijo signali od oxygen saturationa, heart rate-a. Ker so občutljivi podatki in obiajno ostanejo na infrstrukturah od bolnišnic, je lahko to dejanski edge node uporabljen za federated learning.
-The direction of the artificial intelligence model was disease prediction. The main sources of data were APNEA HRV+SPO2 DATASET~\cite{julia-serdaAPNEAHRV+SPO2DATASET2023} and a smart medical ring Wellue O2Ring \footnote{https://getwellue.com/pages/o2ring-oxygen-monitor} that a person can wear while it continuously performs medical measurements. The artificial intelligence model used heart rate and oxygen saturation (SpO2) to predict whether a person has sleep-related breathing disorder called obstructive sleep apnea (OBS)~\cite{strolloObstructiveSleepApnea1996}.
+The aim of this work was early diagnosis of sleep-related breathing disorders by analysing biometrical data. The main sources of data were APNEA HRV+SPO2 DATASET~\cite{julia-serdaAPNEAHRV+SPO2DATASET2023} and a smart medical ring Wellue O2Ring \footnote{https://getwellue.com/pages/o2ring-oxygen-monitor} that a person can wear while it continuously performs medical measurements. The artificial intelligence model used heart rate and oxygen saturation (SpO2) to retrospectively label patients' measurements and indicate periods consistent with predict whether a person has sleep-related breathing disorder called obstructive sleep apnea (OBS)~\cite{strolloObstructiveSleepApnea1996}.
 
 
 \subsection{Problem statement}
@@ -22,7 +22,7 @@ In an ideal situation, an artificial intelligence model could train on all data 
 The main intention of the project is to develop a federated learning proof-of-concept (POC) for the company, which can later be used as a starting point for other projects and might be fully implemented, possibly in a healthcare environment. It might also become a new privacy-oriented artificial intelligence solution that the company could offer to clients for commercialization as a reusable asset.
 
 
-\subsection{Scope within the bachelor project (MVP – need to have)}
+\subsection{Scope within the bachelor thesis (MVP – need to have)}
 
 % What is the scope of the project within this bachelor project? \label{q} \newline
 The scope can be seen on the Table~\ref{tab:requirements-with-scope} on page~\pageref{tab:requirements-with-scope}. The requirement descriptions include terminology introduced in Section~\ref{sec:preliminary-research}. ``Must have'' features describe the minimal viable product (MVP); without these, the project is not deemed finished, unless blockers are clearly stated.
