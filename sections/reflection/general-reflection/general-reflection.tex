@@ -23,7 +23,7 @@ A summary of final metrics from both centralized and federated approaches can be
 % TODO Add reference to the github account.
 
 \begin{table}[htb]\centering
-    \caption{Results of centralized and federated learning approach and their comparison. In a federated setting, the test consisted of 3 hospitals (clients), 5 rounds and 15 epochs. In a centralized setting, it consisted of 15*5*3 (255) epochs. Hyperparameters were the same for both approaches. Number 0 or 1 after metric name indicates whether it was calculated for patients with or without obstructive sleep apnea.}\label{tab:second-test}
+    \caption{Results of centralized and federated learning approach and their comparison. In a federated setting, the test consisted of 3 hospitals (clients), 5 rounds and 15 epochs. In a centralized setting, it consisted of 15*5*3 epochs (255 epochs). Hyperparameters were the same for both approaches. Number 0 or 1 after metric name indicates whether it was calculated for patients with or without obstructive sleep apnea.}\label{tab:second-test}
     \csvreader[
         tabular = | p{0.1925\textwidth} | p{0.1925\textwidth} | p{0.1925\textwidth} | p{0.1925\textwidth} |,
         table head = \hline \textbf{Metric} & \textbf{Centralized} & \textbf{Federated} & \textbf{Difference}\\\hline,
@@ -49,7 +49,7 @@ In production, besides automated testing of data pipeline, privacy that federate
 
 %Was security considered in the project and how was it addressed? \label{q} \newline
 
-The whole concept of federated learning is build for the purpose of securing sensitive data by not sharing it to third parties, which is also what has been implemented in this proof-of-concept. In a multi-machine setup, Docker containers to not share any private patients measurement data between each other. They merely exchange the knowledge in terms of model weights. Most additional security features mentioned in Section~\ref{subsubsec:privacy-perserving-techniques} were left out in favor of expanding the project towards the infrastructural direction by containerizing the implementation. While developing that, secure TLS communication was enforced in order for the gRPC communication between nodes to become encrypted and weights cannot be directly read by a middleman.
+The whole concept of federated learning is build for the purpose of securing sensitive data by not sharing it to third parties, which is also what has been implemented in this proof-of-concept. In a multi-machine setup, Docker containers do not share any private patients measurement data between each other. They merely exchange the knowledge in terms of model weights. Most additional security features mentioned in Section~\ref{subsubsec:privacy-perserving-techniques} were left out in favor of expanding the project towards the infrastructural direction by containerizing the implementation. While developing that, secure TLS communication was enforced in order for the gRPC communication between nodes to become encrypted and weights cannot be directly read by a middleman.
 
 %Where do you see possible improvements in the project’s security? \label{q} \newline
 
@@ -60,7 +60,7 @@ Possible improvements in the project's security mostly entail differential priva
 
 %Where do you see improvements in general? \label{q} \newline
 
-Starting with a non-functional improvement: readability. The model code I took was a few months old and there is a more readable and clean model that a colleague at the company has developed since. Plugging in that model would be a highly beneficial next step. Afterward, running the federated network using docker on \emph{separate} networks would be one step closer to real implementation. Adding TLS certificates issued by an official authority like Let's Encrypt, instead of using self-signed certificates like I have done now is a mandatary move; Let's Encrypt also offers test certificates, which could be great while playing around with this part of security. Finally, reducing bandwidth and model weight size sent over network even more might be an interesting topic of research.
+Starting with a non-functional improvement: readability. The model code I took was a few months old and there is a more readable and clean model that a colleague at the company has developed since. Plugging in that model would be a highly beneficial next step. Afterward, running the federated network using docker on \emph{separate} networks would be one step closer to real implementation. Adding TLS certificates issued by an official authority like Let's Encrypt, instead of using self-signed certificates like I have done now is a mandatory move; Let's Encrypt also offers test certificates, which could be great while playing around with this part of security. Finally, reducing bandwidth and model weight size sent over network even more might be an interesting topic of research.
 
 
 \subsubsection{Added value of the project}
