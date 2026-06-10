@@ -1,6 +1,9 @@
 \section{Story Mapping}
+\AddToHook{cmd/section/before}{\clearpage}
 
 \subsection{Kanban board}
+\AddToHook{cmd/subsection/before}{\clearpage}
+
 \label{appendix:kanban-board}
 \begin{figure}[htb]
     \caption{Translated using Google Translate.}
@@ -16,10 +19,27 @@
     \includegraphics[width=\textwidth]{media/jira-timeline}
 \end{figure}
 
+\subsection{Backlog}
+\label{appendix:backlog}
+\begin{table}[htb!]\centering
+    \caption{Original backlog of all work items with completion status.}\label{tab:backlog}
+    \csvreader[
+        tabular = | p{0.04\textwidth} | p{0.12\textwidth} | p{0.12\textwidth} | p{0.12\textwidth} | p{0.08\textwidth} | p{0.37\textwidth} |,
+        table head = \hline \textbf{key} & \textbf{workType} & \textbf{dueDate} & \textbf{weekNum} & \textbf{status} & \textbf{description} \\\hline,
+        late after line = \\\hline,
+        separator = semicolon
+    ]{media/backlog.csv}%
+    {key=\key,workType=\workType,dueDate=\dueDate,weekNum=\weekNum,status=\status,description=\description}{%
+        \key & \workType & \dueDate & \weekNum & \status & \begin{small} \description \end{small}
+    }
+\end{table}
+
+
+
 \section{Second Test} \label{appendix:second-test}
 
 \begin{table}[htb]\centering
-    \caption{Results of centralized and federated learning approach and their comparison. In a federated setting, the test consisted of 3 hospitals (clients), 5 rounds and 15 epochs. In a centralized setting, it consisted of 15*5*3 epochs (255 epochs). Hyperparameters were the same for both approaches. Number 0 or 1 after metric name indicates whether it was calculated for patients with or without obstructive sleep apnea.}\label{tab:first-test}
+    \caption{Results of centralized and federated learning approach and their comparison. In a federated setting, the test consisted of 3 hospitals (clients), 5 rounds and 15 epochs. In a centralized setting, it consisted of $15\cdot5\cdot3$ epochs (255 epochs). Hyperparameters were the same for both approaches. Number 0 or 1 after metric name indicates whether it was calculated for patients with or without obstructive sleep apnea.}\label{tab:first-test}
     \csvreader[
         tabular = | p{0.1925\textwidth} | p{0.1925\textwidth} | p{0.1925\textwidth} | p{0.1925\textwidth} |,
         table head = \hline \textbf{Metric} & \textbf{Centralized} & \textbf{Federated} & \textbf{Difference}\\\hline,
@@ -30,3 +50,5 @@
         \metric & \centralized & \federated & \difference
     }
 \end{table}
+
+\RemoveFromHook{cmd/subsection/before}{\clearpage}

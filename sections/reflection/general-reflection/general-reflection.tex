@@ -19,11 +19,10 @@ The project requirements written in Table~\ref{tab:requirements-with-scope} turn
 
 However, there are still some unresolved issues. One of them being the aggregated evaluation metrics showing presumably wrong results when it comes to precision and recall scores --- these are always zero, in contrast to centralized training where this does not happen. On the other hand, the train metrics are correct, which is why the task is deemed achieved, besides that my focus was not on improving model performance. Perhaps testing the final model on all data would be an indicator about the direction of the issue --- were the metrics not aggregated correctly, or is there an issue solely in the evaluation code.
 
-A summary of final metrics from both centralized and federated approaches can be seen in Table~\ref{tab:second-test}. The differance between these two machine learning techniques, in terms of metrics, turn out to be very minor, around 0.03 $\pm$ 0.05, with federated learning mostly having slightly lower values; except for the test metrics, where we suspect a minor bug in the code. Results of another test can be found in Appendix~\ref{appendix:second-test}, all tests and project code can also be found on GitHub.
-% TODO Add reference to the github account.
+A summary of final metrics from both centralized and federated approaches can be seen in Table~\ref{tab:second-test}. The differance between these two machine learning techniques, in terms of metrics, turn out to be very minor, around 0.03 $\pm$ 0.05, with federated learning mostly having slightly lower values; except for the test metrics, where we suspect a minor bug in the code. Results of another test can be found in Appendix~\ref{appendix:second-test}, all tests and project code can also be found on GitHub\footnote{https://github.com/MatejVeselUCLL/federated-learning-approach-for-obstructive-sleep-apnea-prediction}.
 
 \begin{table}[htb]\centering
-    \caption{Results of centralized and federated learning approach and their comparison. In a federated setting, the test consisted of 3 hospitals (clients), 5 rounds and 15 epochs. In a centralized setting, it consisted of 15*5*3 epochs (255 epochs). Hyperparameters were the same for both approaches. Number 0 or 1 after metric name indicates whether it was calculated for patients with or without obstructive sleep apnea.}\label{tab:second-test}
+    \caption{Results of centralized and federated learning approach and their comparison. In a federated setting, the test consisted of 3 hospitals (clients), 5 rounds and 15 epochs. In a centralized setting, it consisted of $15\cdot5\cdot3$ epochs (255 epochs). Hyperparameters were the same for both approaches. Number 0 or 1 after metric name indicates whether it was calculated for patients with or without obstructive sleep apnea.}\label{tab:second-test}
     \csvreader[
         tabular = | p{0.1925\textwidth} | p{0.1925\textwidth} | p{0.1925\textwidth} | p{0.1925\textwidth} |,
         table head = \hline \textbf{Metric} & \textbf{Centralized} & \textbf{Federated} & \textbf{Difference}\\\hline,
@@ -39,7 +38,7 @@ A summary of final metrics from both centralized and federated approaches can be
 
 %Which test framework or technique was chosen and why? \label{q} \newline
 
-No automated testing was written during the project. The model is manually tested by using evaluation and prediction scripts, which isolate some patients measurements from the training procedure and later on execute predictions on them to give us representative results of model performance. The federated framework part of the project also does not have any special tests. Important to note is that the different hospitals, in different Docker containers do not share any patients measurements data during training and testing, which is also the goal of federated learning.
+No automated testing was written during the project. The model is manually tested by using evaluation and prediction scripts, which isolate some patients' measurements from the training procedure and later on execute predictions on them to give us representative results of model performance. The federated framework part of the project also does not have any special tests. Important to note is that the different hospitals, in different Docker containers do not share any patients' measurements data during training and testing, which is also the goal of federated learning.
 
 %Which parts of the project were or were not tested, and why? \label{q} \newline
 
@@ -49,7 +48,7 @@ In production, besides automated testing of data pipeline, privacy that federate
 
 %Was security considered in the project and how was it addressed? \label{q} \newline
 
-The whole concept of federated learning is build for the purpose of securing sensitive data by not sharing it to third parties, which is also what has been implemented in this proof-of-concept. In a multi-machine setup, Docker containers do not share any private patients measurement data between each other. They merely exchange the knowledge in terms of model weights. Most additional security features mentioned in Section~\ref{subsubsec:privacy-perserving-techniques} were left out in favor of expanding the project towards the infrastructural direction by containerizing the implementation. While developing that, secure TLS communication was enforced in order for the gRPC communication between nodes to become encrypted and weights cannot be directly read by a middleman.
+The whole concept of federated learning is build for the purpose of securing sensitive data by not sharing it to third parties, which is also what has been implemented in this proof-of-concept. In a multi-machine setup, Docker containers do not share any private patients' measurement data between each other. They merely exchange the knowledge in terms of model weights. Most additional security features mentioned in Section~\ref{subsubsec:privacy-perserving-techniques} were left out in favor of expanding the project towards the infrastructural direction by containerizing the implementation. While developing that, secure TLS communication was enforced in order for the gRPC communication between nodes to become encrypted and weights cannot be directly read by a middleman.
 
 %Where do you see possible improvements in the project’s security? \label{q} \newline
 
@@ -60,7 +59,7 @@ Possible improvements in the project's security mostly entail differential priva
 
 %Where do you see improvements in general? \label{q} \newline
 
-Starting with a non-functional improvement: readability. The model code I took was a few months old and there is a more readable and clean model that a colleague at the company has developed since. Plugging in that model would be a highly beneficial next step. Afterward, running the federated network using docker on \emph{separate} networks would be one step closer to real implementation. Adding TLS certificates issued by an official authority like Let's Encrypt, instead of using self-signed certificates like I have done now is a mandatory move; Let's Encrypt also offers test certificates, which could be great while playing around with this part of security. Finally, reducing bandwidth and model weight size sent over network even more might be an interesting topic of research.
+Starting with a non-functional improvement: readability. The model code I took was a few months old and there is a more readable and clean model that a colleague at the company has developed since. Plugging in that model would be a highly beneficial next step. Afterward, running the federated network using docker on \emph{separate} networks would be one step closer to real implementation. Adding TLS certificates issued by an official authority like Let's Encrypt, instead of using self-signed certificates like I have done now, is a mandatory move; Let's Encrypt also offers test certificates, which could be great while exploring this part of security. Finally, reducing bandwidth and model weight size sent over network even more might be an interesting topic of research.
 
 
 \subsubsection{Added value of the project}

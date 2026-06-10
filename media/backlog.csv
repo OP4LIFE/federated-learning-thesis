@@ -1,0 +1,34 @@
+key;workType;dueDate;weekNum;status;description
+30;Task;13/May/26;Week 1;Done;Follow-up details
+9;Task;17/May/26;Week 1;Done;Problem definition
+11;Task;17/May/26;Week 1;Done;Architecture definition
+14;Task;17/May/26;Week 1;Done;Introduction to Flower
+10;Task;17/May/26;Week 1;Done;Objective definition
+15;Task;17/May/26;Week 1;Done;Writing the theoretical part
+42;Task;17/May/26;Week 1;Done;Feedback about theoretical part
+12;Task;17/May/26;Week 1;Done;Development environment preparation
+13;Task;17/May/26;Week 1;Done;Overview of the use of models registered in MLFlow and the possibility of using the framework
+31;Task;22/May/26;Week 2;Done;DRAFT: Report V1
+32;Task;22/May/26;Week 2;Done;ABSTRACT
+17;Task;25/May/26;Week 2;Done;Data flow preparation
+18;Task;25/May/26;Week 2;Done;Data division into three parts and integration with already built models in MLflow
+19;Task;25/May/26;Week 2;Done;Local models on three different data sets
+16;Task;25/May/26;Week 2;Done;Development of additional functionalities
+23;Task;05/Jun/26;Week 3;Done;"Exchange of model parameters between server and client; update of local models with new parameters"
+25;Task;05/Jun/26;Week 3;Done;Definition of set and get weights
+20;Task;05/Jun/26;Week 3;Done;Execution of experiments and simulation of the federated learning concept
+21;Task;05/Jun/26;Week 3;Done;Each part of the data represents a separate client or node
+22;Task;05/Jun/26;Week 3;Done;Verify the use of Flower or your own simulation
+24;Task;05/Jun/26;Week 3;Done;Iteration - until
+33;Task;10/Jun/26;Week 4;Done;DRAFT: report V2
+34;Task;11/Jun/26;Week 4;Done;DRAFT Presentation
+26;Task;12/Jun/26;Week 4;Done;Result analysis
+27;Task;12/Jun/26;Week 4;Done;"Comparison of local; centralized and federated approaches"
+29;Task;12/Jun/26;Week 4;Done;"Finalization of the task; editing text; images; tables; references and preparation final versions for submission"
+28;Task;12/Jun/26;Week 4;Done;Writing the practical part of the thesis
+35;Task;16/Jun/26;Week 5;Done;"Final output (final report; presentation; code; and any additional documents)"
+54;Story;12/Jun/26;;Done;Single-machine and non-containerized simulation of apnea predictions using federated learning
+55;Story;12/Jun/26;;Done;Single-machine and containerized (with Docker) simulation of apnea predictions using federated learning
+57;Story;12/Jun/26;;Done;Multi-machine and containerized (with Docker) simulation of apnea predictions using federated learning
+56;Story;12/Jun/26;;Not Done;Differential privacy mechanism implemented
+58;Story;12/Jun/26;;Not Done;Multi-machine and containerized (on Kubernetes) simulation of apnea predictions using federated learning

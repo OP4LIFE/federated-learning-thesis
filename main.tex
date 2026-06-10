@@ -13,7 +13,12 @@
 \usepackage[toc,page]{appendix}
 \addbibresource{bachelor-work.bib}
 
-\AddToHook{cmd/section/before}{\clearpage}
+
+\newenvironment{absolutelynopagebreak}
+  {\par\nobreak\vfil\penalty0\vfilneg
+   \vtop\bgroup}
+  {\par\xdef\tpd{\the\prevdepth}\egroup
+   \prevdepth=\tpd}
 
 
 \begin{document}
@@ -25,10 +30,12 @@
 \input{sections/title-page}
 \end{titlepage}
 
-\begin{acknowledgements}
-    \input{sections/acknowledgements}
-\end{acknowledgements}
 
+\input{sections/acknowledgements}
+
+\input{sections/abstract}
+
+\AddToHook{cmd/section/before}{\clearpage}
 
 \hypersetup{linkcolor=black}
 \tableofcontents
@@ -49,6 +56,9 @@
 
 \section{Reflection}
 \input{sections/reflection/reflection}
+\clearpage
+
+\RemoveFromHook{cmd/section/before}{\clearpage}
 
 \begin{appendices}
 \input{sections/appendices}
