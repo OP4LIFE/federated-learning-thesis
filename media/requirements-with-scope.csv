@@ -7,4 +7,4 @@ Could have;Multi-machine and containerized (on Kubernetes) simulation of apnea p
 Will not have;Non-basic visualizations.
 Will not have;Advanced artificial model.
 Will not have;Other security features like secure multiparty computation.
-Will not have;Production ready features, e.g. blockchain technologies like swarm learning, compatibility with NVIDIA FLARE.
+Will not have;Production ready features, e.g. blockchain technologies like swarm learning or compatibility with NVIDIA FLARE.
