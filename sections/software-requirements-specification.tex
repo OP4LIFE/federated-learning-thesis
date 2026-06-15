@@ -16,8 +16,9 @@ In order to discover, track, and prioritize all requirements, I was, especially 
 
 %What are the functional requirements? \label{q} \newline
 %Which features/user stories did you design? \label{q} \newline
-\emph{Functional requirements} can be seen in the Table~\ref{tab:requirements-with-scope}. ``Must have'' requirements form the minimal viable product (MVP). Out of all requirements, I have created user stories that can be seen in the list below.
+\emph{Functional requirements} can be seen in the Table~\ref{tab:requirements-with-scope}. ``Must have'' requirements form the minimal viable product (MVP). Out of all requirements, I have created features that can be seen in the list below.
 
+%TOD these are not really user stories, they are even bigger then "epics". But I understand the research goal doesn't provide many small "stories". but then I wouldn't use stories, just requirements
 \begin{enumerate}
     \item As a developer, \\
     I want to run a single-machine and non-containerized simulation of apnea predictions using federated learning, \\
@@ -51,7 +52,9 @@ In order to discover, track, and prioritize all requirements, I was, especially 
 
 %Which features/user stories belong to the MVP? \label{q} \newline
 \begin{table}[htb]\centering
-    \caption{Functional requirements with their importance, higher rows correspond to higher priority.}\label{tab:requirements-with-scope}
+% TOD tip: also add research and preparations to requirements
+% TOD because of the large requirements, your moscow analysis is also not very elaborate. It would be better if you could split it in more separate smaller requirements. you only just have 1 must have, which is basically your mvp. so your mvp is 1 requirement.. and almost have is "will not have", which means the entire product seems very small.
+    \caption{Functional requirements with their importance, higher rows correspond to higher priority. For a further dissection of minimal viable requirements, see Appendix~\ref{appendix:backlog}}\label{tab:requirements-with-scope}
     \csvreader[
         tabular = | p{0.2\textwidth} | p{0.75\textwidth} |,
         table head = \hline \textbf{Importance} & \textbf{Requirement}\\\hline,

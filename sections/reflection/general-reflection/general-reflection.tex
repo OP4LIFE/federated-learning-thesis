@@ -2,10 +2,11 @@
 
 %Were the project objectives achieved? \label{q} \newline
 
+%TOD based on the low amount of requirements, this doesn't say much.
 The project requirements written in Table~\ref{tab:requirements-with-scope} turned out to be well-thought as majority was implemented. By successfully establishing single-machine non-containerized simulation of apnea predictions minimal viable product was delivered. This was further more extended --- using Docker --- to multi-machine containerized setup. On top, additional security was configured with TLS certificate requirement between the all communicating nodes. Although this security might not be necessary since it was done in a single network, the federated setup is ready to be tested in a multi-network environment where this would become a must. All requirements with associated completion status can be seen in Table~\ref{tab:requirements-with-scope-and-completion}.
 
 \begin{table}[htb]\centering
-    \caption{Functional requirements with their importance and completion status, higher rows correspond to higher priority.}\label{tab:requirements-with-scope-and-completion}
+    \caption{Functional requirements with their importance and completion status, higher rows correspond to higher priority. For a further dissection of minimal viable requirements, see Appendix~\ref{appendix:backlog}}\label{tab:requirements-with-scope-and-completion}
     \csvreader[
         tabular = | p{0.15\textwidth} | p{0.6\textwidth} | p{0.15\textwidth} |,
         table head = \hline \textbf{Importance} & \textbf{Requirement} & \textbf{Implemented}\\\hline,
@@ -19,7 +20,7 @@ The project requirements written in Table~\ref{tab:requirements-with-scope} turn
 
 However, there are still some unresolved issues. One of them being the aggregated evaluation metrics showing presumably wrong results when it comes to precision and recall scores --- these are always zero, in contrast to centralized training where this does not happen. On the other hand, the train metrics are correct, which is why the task is deemed achieved, besides that my focus was not on improving model performance. Perhaps testing the final model on all data would be an indicator about the direction of the issue --- were the metrics not aggregated correctly, or is there an issue solely in the evaluation code.
 
-A summary of final metrics from both centralized and federated approaches can be seen in Table~\ref{tab:second-test}. The differance between these two machine learning techniques, in terms of metrics, turn out to be very minor, around 0.03 $\pm$ 0.05, with federated learning mostly having slightly lower values; except for the test metrics, where we suspect a minor bug in the code. Results of another test can be found in Appendix~\ref{appendix:second-test}, all tests and project code can also be found on GitHub\footnote{https://github.com/MatejVeselUCLL/federated-learning-approach-for-obstructive-sleep-apnea-prediction}.
+A summary of final metrics from both centralized and federated approaches can be seen in Table~\ref{tab:second-test}. The differance between these two machine learning techniques, in terms of metrics, turn out to be very minor, around 0.03 $\pm$ 0.05, with federated learning mostly having slightly lower values; except for the test metrics, where we suspect a minor bug in the code. Results of another test can be found in Appendix~\ref{appendix:second-test}, all tests and project code can also be found on GitHub\footnote{https://github.com/OP4LIFE/federated-learning-approach-for-obstructive-sleep-apnea-prediction}.
 
 \begin{table}[htb]\centering
     \caption{Results of centralized and federated learning approach and their comparison. In a federated setting, the test consisted of 3 hospitals (clients), 5 rounds and 15 epochs. In a centralized setting, it consisted of $15\cdot5\cdot3$ epochs (255 epochs). Hyperparameters were the same for both approaches. Number 0 or 1 after metric name indicates whether it was calculated for patients with or without obstructive sleep apnea.}\label{tab:second-test}
@@ -63,10 +64,17 @@ Starting with a non-functional improvement: readability. The model code I took w
 
 
 \subsubsection{Added value of the project}
+%TOD also add a broader added value, e.g. for healthcare, so they can help more patients, faster, better, etc...
+%TOD in addition, you provided 2 target audiences, but don't provide the added value for them?
 
 %What do you consider the greatest added value of the project? \label{q} \newline
 
-The greatest added value for the project is definitely privacy. The fact of sending knowledge (model weights) instead of data is crucial for fewer conflicts with regulations. This brings more data for a better performing machine learning model and less effort and time required to align with the law.
+This prototype brings great flexibility to developers as they can swiftly gain understanding of the clear structure that Flower provides, they can adapt the code for other purposes due to its modular nature --- for example by switching to a different model for a different scenario --- and all of that, along with containerization, makes it possible to easily scale the prototype to a business-ready solution.
+
+The greatest added value is ultimately for the patients, or any kind of clients whose data is used for the system. Besides better and faster diagnosis, most importantly, federated learning brings privacy. Privacy enables trust and there is no business without trust. This is the key impact that this approach brings compared to standard machine learning.
+
+Beside patients, doctors receive improved tools, project managers and lawyers have less regulation burden, and scientists, together with the whole research community, can explore new solutions with the help of additional data that federated learning brings. Data scarcity is a problem with machine learning, especially in healthcare. Imagine that European hospitals create a federated network around the sensitive data, giving researchers the possibility to switch and explore different machine learning models with sufficient and realistic data, and with respect to each person's records.
+
 
 \subsubsection{Future opportunities and next steps}
 
