@@ -76,8 +76,8 @@ All privacy alternatives mentioned above are strongly related, but optional for 
 %Which programming languages did you use? \label{q} \newline
 %Which programming languages did you test but ultimately not use in the final development? \label{q} \newline
 
+%TOD requirement. there's only 1 must have requirement (but you should have more).
 There were minimal hardware requirements to develop the most important parts of the project. Must have functional requirements were satisfied only by using a single computer, and a dedicated remote server with a strong computing capabilities. It was specifically meant for faster model training, although it was not a necessity. Later on, another computer was added to configure the federated network in a multi-machine environment, making it more realistic. A smart ring sensor (Wellue O2Ring) was considered as a data source, but decided to be out of scope for this thesis and not used at the end.
-%TODO kje se se ta ring pojavi
 
 Software requirements consisted mostly of a programming language, integrated development environment and a virtualization technology. Since the apnea prediction model was already coded in a programming language Python (with Tensorflow machine learning library), I made sure this was also the case for the federated learning network. Federated Flower network was coded in Python, specifically configured for use with Tensorflow and a remote procedure communication protocol gRPC. Coding itself was done in IntelliJ and Visual Studio Code; the latter was used for easier SSH access to the remote machine learning server mentioned in the previous paragraph. Virtualization technology used after developing the minimal viable product was Docker, which made it possible to run all necessary code on separate computers without any other software and with additional TLS security. No other programming language or software was used or tested during this project.
 

@@ -1,4 +1,6 @@
 Importance;Requirement;Implemented
+Must have;Research of the technology and alternatives.;Yes
+Must have;Preparation of development environment.;Yes
 Must have;Single-machine and non-containerized simulation of apnea predictions using federated learning.;Yes
 Should have;Single-machine and containerized (with Docker) simulation of apnea predictions using federated learning.;Yes
 Could have;Differential privacy mechanism implemented.;No
