@@ -1,3 +1,41 @@
+## [unreleased]
+
+### 🚀 Features
+
+- Added submission documents
+- Review from David.
+- Final changes before penultimate submission.
+- *(Reflection)* Personal reflection
+- *(Reflection)* General reflection
+- *(Preliminary Research)* 'Final selected technology / project tools' and 'Choice reflection'
+- *(Preliminary Research)* Required Technology
+- Finished main part of the thesis document.
+- *(Preliminary Research)* Types of Federated Learning
+
+### 🐛 Bug Fixes
+
+- Citations.
+- Address to repository
+- Review from David.
+- All citations are now before any period
+
+### 🚜 Refactor
+
+- Review from https://github.com/MatejVeselUCLL/federated-learning/pull/6
+- *(Scope and Vision)* Background fixes from https://github.com/MatejVeselUCLL/federated-learning/issues/5
+- *(Scope and Vision)* Background fixes from https://github.com/MatejVeselUCLL/federated-learning/issues/5
+
+### ⚙️ Miscellaneous Tasks
+
+- Readme
+- Rereading
+- *(Reflection)* Outline
+- *(Reflection)* Personal reflection outline
+- *(Reflection)* General reflection outline
+- In the middle of apply Manja's feedback from 11. may.
+- In the middle of apply Manja's feedback from 11. may.
+- In the middle of apply Manja's feedback from 11. may.
+- Updated changelog.
 ## [2.0.0] - 2026-05-14
 
 ### 🚀 Features
