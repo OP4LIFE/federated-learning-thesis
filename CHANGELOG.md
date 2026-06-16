@@ -1,4 +1,4 @@
-## [unreleased]
+## [3.0.0] - 2026-06-16
 
 ### 🚀 Features
 
@@ -27,6 +27,7 @@
 
 ### ⚙️ Miscellaneous Tasks
 
+- Updated changelog.
 - Updated changelog.
 - Updated changelog.
 - Readme
