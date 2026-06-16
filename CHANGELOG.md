@@ -28,6 +28,7 @@
 ### ⚙️ Miscellaneous Tasks
 
 - Updated changelog.
+- Updated changelog.
 - Readme
 - Rereading
 - *(Reflection)* Outline
