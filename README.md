@@ -1,0 +1,1 @@
+Bachelor thesis document can be found in `submission/federated_learning_thesis_matej_vesel`.
